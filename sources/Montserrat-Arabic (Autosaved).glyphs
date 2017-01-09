@@ -1,7 +1,8 @@
 {
 .appVersion = "961";
 DisplayStrings = (
-"/behDotless-ar"
+"/behDotless-ar",
+"/hah-ar.init"
 );
 classes = (
 {
@@ -264,7 +265,6 @@ verticalStems = (
 20,
 20
 );
-visible = 1;
 weight = Light;
 weightValue = 20;
 xHeight = 517;
@@ -351,7 +351,6 @@ verticalStems = (
 115,
 108
 );
-visible = 1;
 weightValue = 110;
 xHeight = 531;
 },
@@ -85637,9 +85636,56 @@ nodes = (
 }
 );
 width = 778;
+},
+{
+associatedMasterId = UUID0;
+layerId = "E81645E5-FA24-42F0-A2B6-F2B8EF7869E6";
+name = "Jan 9 17, 23:15";
+paths = (
+{
+closed = 1;
+nodes = (
+"574 20 LINE",
+"-10 20 LINE",
+"-20 10 LINE",
+"-10 0 LINE",
+"574 0 LINE",
+"735 0 LINE",
+"738 20 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"568 101 OFFCURVE",
+"577 0 OFFCURVE",
+"735 0 CURVE",
+"735 20 LINE",
+"597 20 OFFCURVE",
+"588 104 OFFCURVE",
+"584 149 CURVE SMOOTH",
+"570 295 OFFCURVE",
+"511 517 OFFCURVE",
+"318 517 CURVE",
+"259 517 OFFCURVE",
+"194 496 OFFCURVE",
+"137 463 CURVE",
+"147 445 LINE",
+"197 477 OFFCURVE",
+"261 497 OFFCURVE",
+"316 497 CURVE",
+"498 497 OFFCURVE",
+"553 278 OFFCURVE",
+"564 149 CURVE SMOOTH"
+);
+}
+);
+width = 798;
+visible = 1;
 }
 );
 unicode = FEA3;
+changeCount = 156;
 },
 {
 glyphname = "khah-ar";
