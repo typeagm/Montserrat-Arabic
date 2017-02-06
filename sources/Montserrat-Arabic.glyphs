@@ -1,8 +1,5 @@
 {
 .appVersion = "972";
-DisplayStrings = (
-"/alef-ar.fina.short"
-);
 classes = (
 {
 automatic = 1;
@@ -82366,11 +82363,11 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{125, -60}";
+position = "{100, -60}";
 },
 {
 name = top;
-position = "{125, 883}";
+position = "{100, 883}";
 }
 );
 components = (
@@ -82516,11 +82513,11 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{125, -235}";
+position = "{101, -235}";
 },
 {
 name = top;
-position = "{125, 733}";
+position = "{101, 733}";
 }
 );
 components = (
@@ -82666,11 +82663,11 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{125, -60}";
+position = "{100, -60}";
 },
 {
 name = top;
-position = "{125, 823}";
+position = "{100, 823}";
 }
 );
 components = (
@@ -82816,11 +82813,11 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{125, -60}";
+position = "{100, -60}";
 },
 {
 name = top;
-position = "{125, 854}";
+position = "{100, 854}";
 }
 );
 components = (
@@ -83698,11 +83695,11 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{166, -194}";
+position = "{171, -194}";
 },
 {
 name = top;
-position = "{166, 517}";
+position = "{171, 517}";
 }
 );
 components = (
@@ -83744,11 +83741,11 @@ width = 391;
 anchors = (
 {
 name = bottom;
-position = "{264, -384}";
+position = "{232, -384}";
 },
 {
 name = top;
-position = "{264, 625}";
+position = "{232, 625}";
 }
 );
 components = (
@@ -84044,11 +84041,11 @@ width = 391;
 anchors = (
 {
 name = bottom;
-position = "{250, -455}";
+position = "{230, -455}";
 },
 {
 name = top;
-position = "{250, 625}";
+position = "{230, 625}";
 }
 );
 components = (
@@ -84344,11 +84341,11 @@ width = 391;
 anchors = (
 {
 name = bottom;
-position = "{247, -60}";
+position = "{231, -60}";
 },
 {
 name = top;
-position = "{247, 871}";
+position = "{231, 871}";
 }
 );
 components = (
@@ -84644,11 +84641,11 @@ width = 391;
 anchors = (
 {
 name = bottom;
-position = "{250, -60}";
+position = "{233, -60}";
 },
 {
 name = top;
-position = "{250, 967}";
+position = "{233, 967}";
 }
 );
 components = (
