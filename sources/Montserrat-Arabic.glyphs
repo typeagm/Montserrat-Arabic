@@ -1,5 +1,8 @@
 {
 .appVersion = "972";
+DisplayStrings = (
+"/alef-ar.fina.short"
+);
 classes = (
 {
 automatic = 1;
@@ -82137,7 +82140,7 @@ layers = (
 anchors = (
 {
 name = entry;
-position = "{229, 10}";
+position = "{199, 10}";
 }
 );
 components = (
@@ -82150,15 +82153,15 @@ paths = (
 {
 closed = 1;
 nodes = (
-"239 0 LINE",
-"249 10 LINE",
-"239 20 LINE",
-"129 20 LINE",
-"129 0 LINE"
+"209 0 LINE",
+"219 10 LINE",
+"209 20 LINE",
+"99 20 LINE",
+"99 0 LINE"
 );
 }
 );
-width = 229;
+width = 199;
 },
 {
 anchors = (
@@ -82259,7 +82262,7 @@ name = "alef-ar.fina";
 }
 );
 layerId = UUID0;
-width = 229;
+width = 199;
 },
 {
 components = (
@@ -82380,7 +82383,7 @@ transform = "{1, 0, 0, 1, 29, 200}";
 }
 );
 layerId = UUID0;
-width = 229;
+width = 199;
 },
 {
 anchors = (
@@ -82530,7 +82533,7 @@ transform = "{1, 0, 0, 1, 29, -30}";
 }
 );
 layerId = UUID0;
-width = 229;
+width = 199;
 },
 {
 anchors = (
@@ -82680,7 +82683,7 @@ transform = "{1, 0, 0, 1, -33, 120}";
 }
 );
 layerId = UUID0;
-width = 229;
+width = 199;
 },
 {
 anchors = (
@@ -82830,7 +82833,7 @@ transform = "{1, 0, 0, 1, 28, 212}";
 }
 );
 layerId = UUID0;
-width = 229;
+width = 199;
 },
 {
 anchors = (
