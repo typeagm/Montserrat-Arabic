@@ -1,8 +1,7 @@
 {
-.appVersion = "996";
+.appVersion = "998";
 DisplayStrings = (
-"/hah-ar/hah-ar/hah-ar/hah-ar",
-"/hah-ar.init"
+"/reh-ar/ain-ar/yehbarree-ar"
 );
 classes = (
 {
@@ -75,7 +74,7 @@ name = vendorID;
 value = "1KTF";
 }
 );
-date = "2017-03-23 18:01:15 +0000";
+date = "2017-03-27 22:27:51 +0000";
 designer = "Mohamed Gaber";
 designerURL = "http://gaber.design/";
 familyName = "Montserrat-Arabic";
@@ -84,6 +83,11 @@ featurePrefixes = (
 automatic = 1;
 code = "languagesystem DFLT dflt;\012languagesystem arab dflt;\012languagesystem latn dflt;\012languagesystem latn NLD;\012languagesystem latn CAT;\012languagesystem latn ROM;\012languagesystem latn MOL;\012languagesystem latn KAZ;\012languagesystem latn TAT;\012languagesystem latn TRK;\012languagesystem latn CRT;\012languagesystem latn AZE;\012languagesystem arab URD;\012";
 name = Languagesystems;
+},
+{
+automatic = 1;
+code = "";
+name = DevaRemoveReph;
 }
 );
 features = (
@@ -222,7 +226,7 @@ alignmentZones = (
 "{-100, -10}",
 "{-194, -10}"
 );
-ascender = 886;
+ascender = 1186;
 capHeight = 699;
 customParameters = (
 {
@@ -270,7 +274,7 @@ name = paramOver;
 value = "0";
 }
 );
-descender = -364;
+descender = -564;
 guideLines = (
 {
 angle = 190.7777;
@@ -320,7 +324,7 @@ alignmentZones = (
 "{-100, -10}",
 "{-194, -10}"
 );
-ascender = 976;
+ascender = 1376;
 capHeight = 700;
 customParameters = (
 {
@@ -368,7 +372,7 @@ name = paramOver;
 value = "0";
 }
 );
-descender = -368;
+descender = -668;
 guideLines = (
 {
 angle = 90;
@@ -413,7 +417,7 @@ alignmentZones = (
 "{-100, -10}",
 "{-194, -10}"
 );
-ascender = 1143;
+ascender = 1543;
 capHeight = 701;
 customParameters = (
 {
@@ -461,7 +465,7 @@ name = paramOver;
 value = "0";
 }
 );
-descender = -372;
+descender = -672;
 guideLines = (
 {
 position = "{408, -240}";
@@ -88507,6 +88511,7 @@ nodes = (
 width = 346;
 }
 );
+rightKerningGroup = "reh-ar";
 unicode = 0631;
 },
 {
@@ -88594,6 +88599,7 @@ nodes = (
 width = 392;
 }
 );
+rightKerningGroup = "zain-ar.fina";
 unicode = FEAE;
 },
 {
@@ -88626,11 +88632,11 @@ width = 210;
 anchors = (
 {
 name = bottom;
-position = "{166, -343}";
+position = "{153, -343}";
 },
 {
 name = top;
-position = "{214, 729}";
+position = "{153, 729}";
 }
 );
 components = (
@@ -88669,6 +88675,7 @@ layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
 width = 346;
 }
 );
+rightKerningGroup = "reh-ar";
 unicode = 0632;
 },
 {
@@ -88714,6 +88721,7 @@ layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
 width = 392;
 }
 );
+rightKerningGroup = "zain-ar.fina";
 unicode = FEB0;
 },
 {
@@ -88759,6 +88767,7 @@ layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
 width = 346;
 }
 );
+rightKerningGroup = "reh-ar";
 unicode = 0691;
 },
 {
@@ -88804,6 +88813,7 @@ layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
 width = 392;
 }
 );
+rightKerningGroup = "zain-ar.fina";
 unicode = FB8D;
 },
 {
@@ -88879,6 +88889,7 @@ layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
 width = 346;
 }
 );
+rightKerningGroup = "reh-ar";
 unicode = 0698;
 },
 {
@@ -88954,6 +88965,7 @@ layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
 width = 392;
 }
 );
+rightKerningGroup = "zain-ar.fina";
 unicode = FB8B;
 },
 {
@@ -106276,6 +106288,7 @@ width = 841;
 }
 );
 leftMetricsKey = "beh-ar.medi";
+rightKerningGroup = "zain-ar.fina";
 rightMetricsKey = "reh-ar.fina";
 unicode = FC6A;
 },
@@ -106419,6 +106432,7 @@ width = 841;
 }
 );
 leftMetricsKey = "beh-ar.medi";
+rightKerningGroup = "zain-ar.fina";
 rightMetricsKey = "zain-ar.fina";
 unicode = FC6B;
 },
@@ -107581,6 +107595,7 @@ width = 841;
 }
 );
 leftMetricsKey = "peh-ar.init";
+rightKerningGroup = "zain-ar.fina";
 rightMetricsKey = "reh-ar.fina";
 },
 {
@@ -107723,6 +107738,7 @@ width = 841;
 }
 );
 leftMetricsKey = "peh-ar.init";
+rightKerningGroup = "zain-ar.fina";
 rightMetricsKey = "zain-ar.fina";
 },
 {
@@ -108813,6 +108829,7 @@ width = 841;
 }
 );
 leftMetricsKey = "teh-ar.medi";
+rightKerningGroup = "zain-ar.fina";
 rightMetricsKey = "reh-ar.fina";
 unicode = FC70;
 },
@@ -108956,6 +108973,7 @@ width = 841;
 }
 );
 leftMetricsKey = "teh-ar.medi";
+rightKerningGroup = "zain-ar.fina";
 rightMetricsKey = "zain-ar.fina";
 unicode = FC71;
 },
@@ -110118,6 +110136,7 @@ width = 841;
 }
 );
 leftMetricsKey = "theh-ar.medi";
+rightKerningGroup = "zain-ar.fina";
 rightMetricsKey = "reh-ar.fina";
 unicode = FC76;
 },
@@ -110261,6 +110280,7 @@ width = 841;
 }
 );
 leftMetricsKey = "theh-ar.medi";
+rightKerningGroup = "zain-ar.fina";
 rightMetricsKey = "zain-ar.fina";
 unicode = FC77;
 },
@@ -111590,6 +111610,7 @@ nodes = (
 width = 1555;
 }
 );
+rightKerningGroup = "zain-ar.fina";
 unicode = FD0E;
 },
 {
@@ -111698,6 +111719,7 @@ width = 1668;
 }
 );
 leftMetricsKey = "seen-ar.medi";
+rightKerningGroup = "zain-ar.fina";
 rightMetricsKey = "reh-ar.fina";
 unicode = FD2A;
 },
@@ -112475,6 +112497,7 @@ width = 1555;
 }
 );
 leftMetricsKey = "seen-ar.init";
+rightKerningGroup = "zain-ar.fina";
 rightMetricsKey = "zain-ar.fina";
 },
 {
@@ -112590,6 +112613,7 @@ width = 1668;
 }
 );
 leftMetricsKey = "seen-ar.init";
+rightKerningGroup = "zain-ar.fina";
 rightMetricsKey = "zain-ar.fina";
 },
 {
@@ -112800,6 +112824,7 @@ width = 1555;
 }
 );
 leftMetricsKey = "sheen-ar.init";
+rightKerningGroup = "zain-ar.fina";
 rightMetricsKey = "reh-ar.fina";
 unicode = FD0D;
 },
@@ -112916,6 +112941,7 @@ width = 1668;
 }
 );
 leftMetricsKey = "sheen-ar.medi";
+rightKerningGroup = "zain-ar.fina";
 rightMetricsKey = "reh-ar.fina";
 unicode = FD29;
 },
@@ -113047,6 +113073,7 @@ width = 1555;
 }
 );
 leftMetricsKey = "sheen-ar.init";
+rightKerningGroup = "zain-ar.fina";
 rightMetricsKey = "zain-ar.fina";
 },
 {
@@ -113177,6 +113204,7 @@ width = 1668;
 }
 );
 leftMetricsKey = "sheen-ar.init";
+rightKerningGroup = "zain-ar.fina";
 rightMetricsKey = "zain-ar.fina";
 },
 {
@@ -114204,6 +114232,7 @@ nodes = (
 width = 1740;
 }
 );
+rightKerningGroup = "zain-ar.fina";
 unicode = FD0F;
 },
 {
@@ -114293,6 +114322,7 @@ width = 1825;
 }
 );
 leftMetricsKey = "sad-ar.medi";
+rightKerningGroup = "zain-ar.fina";
 unicode = FD2B;
 },
 {
@@ -114408,6 +114438,7 @@ width = 1740;
 }
 );
 leftMetricsKey = "sad-ar.init";
+rightKerningGroup = "zain-ar.fina";
 rightMetricsKey = "zain-ar.fina";
 },
 {
@@ -114523,6 +114554,7 @@ width = 1825;
 }
 );
 leftMetricsKey = "sad-ar.init";
+rightKerningGroup = "zain-ar.fina";
 rightMetricsKey = "zain-ar.fina";
 },
 {
@@ -115493,6 +115525,7 @@ width = 1740;
 }
 );
 leftMetricsKey = "dad-ar.init";
+rightKerningGroup = "zain-ar.fina";
 rightMetricsKey = "reh-ar.fina";
 unicode = FD10;
 },
@@ -115609,6 +115642,7 @@ width = 1825;
 }
 );
 leftMetricsKey = "dad-ar.medi";
+rightKerningGroup = "zain-ar.fina";
 rightMetricsKey = "reh-ar.fina";
 unicode = FD2C;
 },
@@ -115740,6 +115774,7 @@ width = 1740;
 }
 );
 leftMetricsKey = "dad-ar.init";
+rightKerningGroup = "zain-ar.fina";
 rightMetricsKey = "zain-ar.fina";
 },
 {
@@ -115870,6 +115905,7 @@ width = 1825;
 }
 );
 leftMetricsKey = "dad-ar.init";
+rightKerningGroup = "zain-ar.fina";
 rightMetricsKey = "zain-ar.fina";
 },
 {
@@ -120942,8 +120978,28 @@ layers = (
 {
 anchors = (
 {
+name = bottom_1;
+position = "{126, -60}";
+},
+{
+name = bottom_2;
+position = "{-21, -60}";
+},
+{
+name = caret_1;
+position = "{147, 0}";
+},
+{
 name = exit;
 position = "{0, 10}";
+},
+{
+name = top_1;
+position = "{126, 838}";
+},
+{
+name = top_2;
+position = "{-21, 838}";
 }
 );
 layerId = UUID0;
@@ -120979,8 +121035,28 @@ width = 294;
 {
 anchors = (
 {
+name = bottom_1;
+position = "{146, -121}";
+},
+{
+name = bottom_2;
+position = "{-41, -121}";
+},
+{
+name = caret_1;
+position = "{187.5, 0}";
+},
+{
 name = exit;
 position = "{10, 50}";
+},
+{
+name = top_1;
+position = "{146, 809}";
+},
+{
+name = top_2;
+position = "{-41, 809}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
@@ -121016,8 +121092,28 @@ width = 375;
 {
 anchors = (
 {
+name = bottom_1;
+position = "{261, -202}";
+},
+{
+name = bottom_2;
+position = "{-1, -202}";
+},
+{
+name = caret_1;
+position = "{262, 0}";
+},
+{
 name = exit;
 position = "{0, 96}";
+},
+{
+name = top_1;
+position = "{261, 827}";
+},
+{
+name = top_2;
+position = "{-1, 827}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
@@ -122375,6 +122471,7 @@ width = 841;
 }
 );
 leftMetricsKey = "noon-ar.medi";
+rightKerningGroup = "zain-ar.fina";
 rightMetricsKey = "reh-ar.fina";
 unicode = FC8A;
 },
@@ -122518,6 +122615,7 @@ width = 841;
 }
 );
 leftMetricsKey = "noon-ar.medi";
+rightKerningGroup = "zain-ar.fina";
 rightMetricsKey = "zain-ar.fina";
 unicode = FC8B;
 },
@@ -124695,6 +124793,7 @@ nodes = (
 width = 841;
 }
 );
+rightKerningGroup = "zain-ar.fina";
 },
 {
 glyphname = "alefMaksura_zain-ar.fina";
@@ -124821,6 +124920,7 @@ width = 841;
 }
 );
 leftMetricsKey = "alefMaksura-ar.init";
+rightKerningGroup = "zain-ar.fina";
 rightMetricsKey = "zain-ar.fina";
 },
 {
@@ -125187,6 +125287,7 @@ width = 841;
 }
 );
 leftMetricsKey = "yeh-ar.medi";
+rightKerningGroup = "zain-ar.fina";
 rightMetricsKey = "reh-ar.fina";
 unicode = FC91;
 },
@@ -125330,6 +125431,7 @@ width = 841;
 }
 );
 leftMetricsKey = "yeh-ar.medi";
+rightKerningGroup = "zain-ar.fina";
 rightMetricsKey = "zain-ar.fina";
 unicode = FC92;
 },
@@ -126036,6 +126138,7 @@ width = 841;
 }
 );
 leftMetricsKey = "yehHamzaabove-ar.medi";
+rightKerningGroup = "zain-ar.fina";
 rightMetricsKey = "reh-ar.fina";
 unicode = FC64;
 },
@@ -126179,6 +126282,7 @@ width = 841;
 }
 );
 leftMetricsKey = "yehHamzaabove-ar.medi";
+rightKerningGroup = "zain-ar.fina";
 rightMetricsKey = "zain-ar.fina";
 unicode = FC65;
 },
@@ -127222,8 +127326,20 @@ layers = (
 {
 anchors = (
 {
+name = bottom_1;
+position = "{889, -72}";
+},
+{
+name = bottom_2;
+position = "{605, -88}";
+},
+{
+name = bottom_3;
+position = "{267, -61}";
+},
+{
 name = caret_1;
-position = "{284.5, 0}";
+position = "{647, 0}";
 },
 {
 name = caret_2;
@@ -127232,6 +127348,14 @@ position = "{569, 0}";
 {
 name = caret_3;
 position = "{853.5, 0}";
+},
+{
+name = top_1;
+position = "{882, 828}";
+},
+{
+name = top_3;
+position = "{248, 567}";
 }
 );
 components = (
@@ -127303,6 +127427,18 @@ width = 1138;
 {
 anchors = (
 {
+name = bottom_1;
+position = "{1091, -72}";
+},
+{
+name = bottom_2;
+position = "{728, -88}";
+},
+{
+name = bottom_3;
+position = "{267, -61}";
+},
+{
 name = caret_1;
 position = "{380.5, 0}";
 },
@@ -127313,6 +127449,14 @@ position = "{761, 0}";
 {
 name = caret_3;
 position = "{1141.5, 0}";
+},
+{
+name = top_1;
+position = "{1092, 866}";
+},
+{
+name = top_3;
+position = "{248, 567}";
 }
 );
 components = (
@@ -127384,6 +127528,18 @@ width = 1493;
 {
 anchors = (
 {
+name = bottom_1;
+position = "{1404, -72}";
+},
+{
+name = bottom_2;
+position = "{936, -88}";
+},
+{
+name = bottom_3;
+position = "{330, -61}";
+},
+{
 name = caret_1;
 position = "{480.25, 0}";
 },
@@ -127394,6 +127550,14 @@ position = "{960.5, 0}";
 {
 name = caret_3;
 position = "{1440.75, 0}";
+},
+{
+name = top_1;
+position = "{1430, 866}";
+},
+{
+name = top_3;
+position = "{280, 701}";
 }
 );
 components = (
@@ -198556,6 +198720,327 @@ y = {
 "@MMK_R_J" = -5;
 period = -10;
 };
+"yeh-ar.init" = {
+"yeh-ar.medi" = 0;
+};
+"@MMK_L_zain-ar.fina" = {
+"ain-ar.init" = -20;
+"alef-ar" = -25;
+"beh-ar" = -10;
+"beh-ar.init" = -10;
+"beh_alefMaksura-ar" = -20;
+"beh_yeh-ar" = -20;
+"beh_yehHamzaabove-ar" = -20;
+"dad-ar" = -40;
+"dad-ar.init" = -40;
+"dad_alefMaksura-ar" = -40;
+"dad_reh-ar" = -40;
+"dad_yeh-ar" = -40;
+"dad_yehHamzaabove-ar" = -40;
+"dad_zain-ar" = -40;
+"dal-ar" = -30;
+"feh-ar" = -20;
+"feh-ar.init" = -20;
+"feh_alefMaksura-ar" = -20;
+"feh_yeh-ar" = -20;
+"feh_yehHamzaabove-ar" = -20;
+"gaf-ar" = -60;
+"gaf-ar.init" = -60;
+"gaf_alefMaksura-ar" = -60;
+"gaf_yeh-ar" = -60;
+"gaf_yehHamzaabove-ar" = -60;
+"ghain-ar" = -20;
+"ghain-ar.init" = -20;
+"hah-ar.init" = 0;
+"heh-ar" = -50;
+"heh-ar.init" = -40;
+"jeem-ar.init" = 0;
+"jeh-ar" = -10;
+"kaf_alefMaksura-ar" = -60;
+"kaf_yeh-ar" = -60;
+"kaf_yehHamzaabove-ar" = -60;
+"keheh-ar" = -60;
+"keheh-ar.init" = -60;
+"khah-ar.init" = 0;
+"lam-ar.init" = -40;
+"lam_alef-ar" = -40;
+"lam_alefHamzaabove-ar" = -40;
+"lam_alefHamzabelow-ar" = -40;
+"lam_alefMadda-ar" = -40;
+"lam_alefMaksura-ar" = -40;
+"lam_alefWasla-ar" = -40;
+"lam_meem-ar.init" = -40;
+"lam_yeh-ar" = -40;
+"lam_yehHamzaabove-ar" = -40;
+"meem-ar" = -40;
+"meem-ar.init" = -40;
+"noon-ar.init" = -40;
+"noon_alefMaksura-ar" = -40;
+"noon_yeh-ar" = -40;
+"noon_yehHamzaabove-ar" = -40;
+"peh-ar" = -40;
+"peh-ar.init" = 60;
+"peh_alefMaksura-ar" = 10;
+"peh_yeh-ar" = 10;
+"peh_yehHamzaabove-ar" = 10;
+"qaf-ar.init" = -20;
+"qaf_alefMaksura-ar" = -20;
+"qaf_yeh-ar" = -20;
+"qaf_yehHamzaabove-ar" = -20;
+"reh-ar" = -10;
+"sad-ar" = -40;
+"sad-ar.init" = -40;
+"sad_alefMaksura-ar" = -40;
+"sad_reh-ar" = -40;
+"sad_yeh-ar" = -40;
+"sad_yehHamzaabove-ar" = -40;
+"sad_zain-ar" = -40;
+"seen-ar" = -40;
+"seen-ar.init" = -40;
+"seen_alefMaksura-ar" = -40;
+"seen_reh-ar" = -40;
+"seen_yeh-ar" = -40;
+"seen_yehHamzaabove-ar" = -40;
+"sheen-ar" = -40;
+"sheen-ar.init" = -40;
+"sheen_alefMaksura-ar" = -40;
+"sheen_reh-ar" = -40;
+"sheen_yeh-ar" = -40;
+"sheen_yehHamzaabove-ar" = -40;
+"tah-ar" = -50;
+"tah-ar.init" = -50;
+"tcheh-ar.init" = 0;
+"teh-ar" = -40;
+"teh-ar.init" = -40;
+"teh_alefMaksura-ar" = -40;
+"teh_yeh-ar" = -40;
+"teh_yehHamzaabove-ar" = -40;
+"thal-ar" = -30;
+"theh-ar" = -40;
+"theh-ar.init" = -20;
+"theh_alefMaksura-ar" = -20;
+"theh_yeh-ar" = -20;
+"theh_yehHamzaabove-ar" = -20;
+"waw-ar" = -10;
+"yeh-ar.init" = 50;
+"yehHamzaabove-ar.init" = -40;
+"yehHamzaabove_alefMaksura-ar" = -50;
+"yehHamzaabove_yeh-ar" = -40;
+"yehHamzaabove_yehHamzaabove-ar" = -40;
+"zain-ar" = -10;
+};
+"@MMK_L_reh-ar" = {
+"ain-ar.init" = -20;
+"alef-ar" = -25;
+"beh-ar" = -10;
+"beh-ar.init" = -10;
+"beh_alefMaksura-ar" = -20;
+"beh_yeh-ar" = -20;
+"beh_yehHamzaabove-ar" = -20;
+"dad-ar" = -40;
+"dad-ar.init" = -40;
+"dad_alefMaksura-ar" = -40;
+"dad_reh-ar" = -40;
+"dad_yeh-ar" = -40;
+"dad_yehHamzaabove-ar" = -40;
+"dad_zain-ar" = -40;
+"dal-ar" = -30;
+"feh-ar" = -20;
+"feh-ar.init" = -20;
+"feh_alefMaksura-ar" = -20;
+"feh_yeh-ar" = -20;
+"feh_yehHamzaabove-ar" = -20;
+"gaf-ar" = -60;
+"gaf-ar.init" = -60;
+"gaf_alefMaksura-ar" = -60;
+"gaf_yeh-ar" = -60;
+"gaf_yehHamzaabove-ar" = -60;
+"ghain-ar" = -20;
+"ghain-ar.init" = -20;
+"hah-ar.init" = 0;
+"heh-ar" = -50;
+"heh-ar.init" = -40;
+"jeem-ar.init" = 0;
+"jeh-ar" = -10;
+"kaf_alefMaksura-ar" = -60;
+"kaf_yeh-ar" = -60;
+"kaf_yehHamzaabove-ar" = -60;
+"keheh-ar" = -60;
+"keheh-ar.init" = -60;
+"khah-ar.init" = 0;
+"lam-ar.init" = -40;
+"lam_alef-ar" = -40;
+"lam_alefHamzaabove-ar" = -40;
+"lam_alefHamzabelow-ar" = -40;
+"lam_alefMadda-ar" = -40;
+"lam_alefMaksura-ar" = -40;
+"lam_alefWasla-ar" = -40;
+"lam_meem-ar.init" = -40;
+"lam_yeh-ar" = -40;
+"lam_yehHamzaabove-ar" = -40;
+"meem-ar" = -40;
+"meem-ar.init" = -40;
+"noon-ar.init" = -40;
+"noon_alefMaksura-ar" = -40;
+"noon_yeh-ar" = -40;
+"noon_yehHamzaabove-ar" = -40;
+"peh-ar" = -40;
+"peh-ar.init" = 60;
+"peh_alefMaksura-ar" = 10;
+"peh_yeh-ar" = 10;
+"peh_yehHamzaabove-ar" = 10;
+"qaf-ar.init" = -20;
+"qaf_alefMaksura-ar" = -20;
+"qaf_yeh-ar" = -20;
+"qaf_yehHamzaabove-ar" = -20;
+"reh-ar" = -10;
+"sad-ar" = -40;
+"sad-ar.init" = -40;
+"sad_alefMaksura-ar" = -40;
+"sad_reh-ar" = -40;
+"sad_yeh-ar" = -40;
+"sad_yehHamzaabove-ar" = -40;
+"sad_zain-ar" = -40;
+"seen-ar" = -40;
+"seen-ar.init" = -40;
+"seen_alefMaksura-ar" = -40;
+"seen_reh-ar" = -40;
+"seen_yeh-ar" = -40;
+"seen_yehHamzaabove-ar" = -40;
+"sheen-ar" = -40;
+"sheen-ar.init" = -40;
+"sheen_alefMaksura-ar" = -40;
+"sheen_reh-ar" = -40;
+"sheen_yeh-ar" = -40;
+"sheen_yehHamzaabove-ar" = -40;
+"tah-ar" = -50;
+"tah-ar.init" = -50;
+"tcheh-ar.init" = 0;
+"teh-ar" = -40;
+"teh-ar.init" = -40;
+"teh_alefMaksura-ar" = -40;
+"teh_yeh-ar" = -40;
+"teh_yehHamzaabove-ar" = -40;
+"thal-ar" = -30;
+"theh-ar" = -40;
+"theh-ar.init" = -20;
+"theh_alefMaksura-ar" = -20;
+"theh_yeh-ar" = -20;
+"theh_yehHamzaabove-ar" = -20;
+"waw-ar" = -10;
+"yeh-ar.init" = 50;
+"yehHamzaabove-ar.init" = -40;
+"yehHamzaabove_alefMaksura-ar" = -50;
+"yehHamzaabove_yeh-ar" = -40;
+"yehHamzaabove_yehHamzaabove-ar" = -40;
+"zain-ar" = -10;
+};
+"@MMK_L_reh-ar.fina" = {
+"ain-ar.init" = -20;
+"alef-ar" = -25;
+"beh-ar" = -10;
+"beh-ar.init" = -10;
+"beh_alefMaksura-ar" = -20;
+"beh_yeh-ar" = -20;
+"beh_yehHamzaabove-ar" = -20;
+"dad-ar" = -40;
+"dad-ar.init" = -40;
+"dad_alefMaksura-ar" = -40;
+"dad_reh-ar" = -40;
+"dad_yeh-ar" = -40;
+"dad_yehHamzaabove-ar" = -40;
+"dad_zain-ar" = -40;
+"dal-ar" = -30;
+"feh-ar" = -20;
+"feh-ar.init" = -20;
+"feh_alefMaksura-ar" = -20;
+"feh_yeh-ar" = -20;
+"feh_yehHamzaabove-ar" = -20;
+"gaf-ar" = -60;
+"gaf-ar.init" = -60;
+"gaf_alefMaksura-ar" = -60;
+"gaf_yeh-ar" = -60;
+"gaf_yehHamzaabove-ar" = -60;
+"ghain-ar" = -20;
+"ghain-ar.init" = -20;
+"hah-ar.init" = 0;
+"heh-ar" = -50;
+"heh-ar.init" = -40;
+"jeem-ar.init" = 0;
+"jeh-ar" = -10;
+"kaf_alefMaksura-ar" = -60;
+"kaf_yeh-ar" = -60;
+"kaf_yehHamzaabove-ar" = -60;
+"keheh-ar" = -60;
+"keheh-ar.init" = -60;
+"khah-ar.init" = 0;
+"lam-ar.init" = -40;
+"lam_alef-ar" = -40;
+"lam_alefHamzaabove-ar" = -40;
+"lam_alefHamzabelow-ar" = -40;
+"lam_alefMadda-ar" = -40;
+"lam_alefMaksura-ar" = -40;
+"lam_alefWasla-ar" = -40;
+"lam_meem-ar.init" = -40;
+"lam_yeh-ar" = -40;
+"lam_yehHamzaabove-ar" = -40;
+"meem-ar" = -40;
+"meem-ar.init" = -40;
+"noon-ar.init" = -40;
+"noon_alefMaksura-ar" = -40;
+"noon_yeh-ar" = -40;
+"noon_yehHamzaabove-ar" = -40;
+"peh-ar" = -40;
+"peh-ar.init" = 60;
+"peh_alefMaksura-ar" = 10;
+"peh_yeh-ar" = 10;
+"peh_yehHamzaabove-ar" = 10;
+"qaf-ar.init" = -20;
+"qaf_alefMaksura-ar" = -20;
+"qaf_yeh-ar" = -20;
+"qaf_yehHamzaabove-ar" = -20;
+"reh-ar" = -10;
+"sad-ar" = -40;
+"sad-ar.init" = -40;
+"sad_alefMaksura-ar" = -40;
+"sad_reh-ar" = -40;
+"sad_yeh-ar" = -40;
+"sad_yehHamzaabove-ar" = -40;
+"sad_zain-ar" = -40;
+"seen-ar" = -40;
+"seen-ar.init" = -40;
+"seen_alefMaksura-ar" = -40;
+"seen_reh-ar" = -40;
+"seen_yeh-ar" = -40;
+"seen_yehHamzaabove-ar" = -40;
+"sheen-ar" = -40;
+"sheen-ar.init" = -40;
+"sheen_alefMaksura-ar" = -40;
+"sheen_reh-ar" = -40;
+"sheen_yeh-ar" = -40;
+"sheen_yehHamzaabove-ar" = -40;
+"tah-ar" = -50;
+"tah-ar.init" = -50;
+"tcheh-ar.init" = 0;
+"teh-ar" = -40;
+"teh-ar.init" = -40;
+"teh_alefMaksura-ar" = -40;
+"teh_yeh-ar" = -40;
+"teh_yehHamzaabove-ar" = -40;
+"thal-ar" = -30;
+"theh-ar" = -40;
+"theh-ar.init" = -20;
+"theh_alefMaksura-ar" = -20;
+"theh_yeh-ar" = -20;
+"theh_yehHamzaabove-ar" = -20;
+"waw-ar" = -10;
+"yeh-ar.init" = 50;
+"yehHamzaabove-ar.init" = -40;
+"yehHamzaabove_alefMaksura-ar" = -50;
+"yehHamzaabove_yeh-ar" = -40;
+"yehHamzaabove_yehHamzaabove-ar" = -40;
+"zain-ar" = -10;
+};
 };
 "5DA6E103-6A94-47F2-987D-4952DB8EA68E" = {
 "@MMK_L_A" = {
@@ -198909,6 +199394,278 @@ fraction = 40;
 };
 two.numr = {
 fraction = 90;
+};
+"yeh-ar.init" = {
+"yeh-ar.medi" = 0;
+};
+"@MMK_L_reh-ar" = {
+"ain-ar.init" = -5;
+"alef-ar" = -10;
+"beh_yeh-ar" = -10;
+"beh_yehHamzaabove-ar" = -10;
+"dal-ar" = -10;
+"gaf-ar" = -10;
+"gaf-ar.init" = -10;
+"gaf_alefMaksura-ar" = -10;
+"gaf_yeh-ar" = -10;
+"gaf_yehHamzaabove-ar" = -10;
+"ghain-ar" = -10;
+"hah-ar.init" = -20;
+"heh-ar" = -20;
+"heh-ar.init" = -20;
+"jeem-ar.init" = -20;
+"jeh-ar" = -10;
+"kaf_alefMaksura-ar" = -20;
+"kaf_yeh-ar" = -20;
+"kaf_yehHamzaabove-ar" = -20;
+"keheh-ar" = -20;
+"keheh-ar.init" = -20;
+"khah-ar.init" = -20;
+"lam-ar.init" = -30;
+"lam_alef-ar" = -20;
+"lam_alefHamzaabove-ar" = -20;
+"lam_alefHamzabelow-ar" = -20;
+"lam_alefMadda-ar" = -20;
+"lam_alefMaksura-ar" = -20;
+"lam_alefWasla-ar" = -20;
+"lam_meem-ar.init" = -20;
+"lam_yeh-ar" = -20;
+"lam_yehHamzaabove-ar" = -20;
+"meem-ar" = -20;
+"meem-ar.init" = -20;
+"noon-ar.init" = -10;
+"noon_alefMaksura-ar" = -10;
+"noon_yeh-ar" = -10;
+"noon_yehHamzaabove-ar" = -10;
+"peh-ar" = -10;
+"peh-ar.init" = 40;
+"peh_alefMaksura-ar" = -20;
+"peh_yeh-ar" = -20;
+"peh_yehHamzaabove-ar" = -20;
+"qaf-ar.init" = -10;
+"qaf_alefMaksura-ar" = -10;
+"qaf_yeh-ar" = -10;
+"qaf_yehHamzaabove-ar" = -10;
+"reh-ar" = -10;
+"sad-ar" = -10;
+"sad-ar.init" = -10;
+"sad_alefMaksura-ar" = -10;
+"sad_reh-ar" = -10;
+"sad_yeh-ar" = -10;
+"sad_yehHamzaabove-ar" = -10;
+"sad_zain-ar" = -10;
+"seen-ar" = -10;
+"seen-ar.init" = -10;
+"seen_alefMaksura-ar" = -10;
+"seen_reh-ar" = -10;
+"seen_yeh-ar" = -10;
+"seen_yehHamzaabove-ar" = -10;
+"sheen-ar" = -10;
+"sheen-ar.init" = -10;
+"sheen_alefMaksura-ar" = -10;
+"sheen_reh-ar" = -10;
+"sheen_yeh-ar" = -10;
+"sheen_yehHamzaabove-ar" = -10;
+"tah-ar" = -10;
+"tah-ar.init" = -10;
+"tcheh-ar.init" = -20;
+"teh-ar" = -20;
+"teh-ar.init" = -20;
+"teh_alefMaksura-ar" = -20;
+"teh_yeh-ar" = -20;
+"teh_yehHamzaabove-ar" = -20;
+"thal-ar" = -10;
+"theh-ar" = -20;
+"theh-ar.init" = -20;
+"theh_alefMaksura-ar" = -10;
+"theh_yeh-ar" = -10;
+"theh_yehHamzaabove-ar" = -10;
+"waw-ar" = -10;
+"yeh-ar.init" = 40;
+"yehHamzaabove-ar.init" = -20;
+"yehHamzaabove_alefMaksura-ar" = -20;
+"yehHamzaabove_yeh-ar" = -20;
+"yehHamzaabove_yehHamzaabove-ar" = -20;
+"zain-ar" = -10;
+"dad_yehHamzaabove-ar" = -10;
+};
+"@MMK_L_zain-ar.fina" = {
+"ain-ar.init" = -5;
+"alef-ar" = -10;
+"beh_yeh-ar" = -10;
+"beh_yehHamzaabove-ar" = -10;
+"dad_yehHamzaabove-ar" = -10;
+"dal-ar" = -10;
+"gaf-ar" = -10;
+"gaf-ar.init" = -10;
+"gaf_alefMaksura-ar" = -10;
+"gaf_yeh-ar" = -10;
+"gaf_yehHamzaabove-ar" = -10;
+"ghain-ar" = -10;
+"hah-ar.init" = -20;
+"heh-ar" = -20;
+"heh-ar.init" = -20;
+"jeem-ar.init" = -20;
+"jeh-ar" = -10;
+"kaf_alefMaksura-ar" = -20;
+"kaf_yeh-ar" = -20;
+"kaf_yehHamzaabove-ar" = -20;
+"keheh-ar" = -20;
+"keheh-ar.init" = -20;
+"khah-ar.init" = -20;
+"lam-ar.init" = -30;
+"lam_alef-ar" = -20;
+"lam_alefHamzaabove-ar" = -20;
+"lam_alefHamzabelow-ar" = -20;
+"lam_alefMadda-ar" = -20;
+"lam_alefMaksura-ar" = -20;
+"lam_alefWasla-ar" = -20;
+"lam_meem-ar.init" = -20;
+"lam_yeh-ar" = -20;
+"lam_yehHamzaabove-ar" = -20;
+"meem-ar" = -20;
+"meem-ar.init" = -20;
+"noon-ar.init" = -10;
+"noon_alefMaksura-ar" = -10;
+"noon_yeh-ar" = -10;
+"noon_yehHamzaabove-ar" = -10;
+"peh-ar" = -10;
+"peh-ar.init" = 40;
+"peh_alefMaksura-ar" = -20;
+"peh_yeh-ar" = -20;
+"peh_yehHamzaabove-ar" = -20;
+"qaf-ar.init" = -10;
+"qaf_alefMaksura-ar" = -10;
+"qaf_yeh-ar" = -10;
+"qaf_yehHamzaabove-ar" = -10;
+"sad-ar" = -10;
+"sad-ar.init" = -10;
+"sad_alefMaksura-ar" = -10;
+"sad_yeh-ar" = -10;
+"sad_yehHamzaabove-ar" = -10;
+"sad_zain-ar" = -10;
+"seen-ar" = -10;
+"seen-ar.init" = -10;
+"seen_alefMaksura-ar" = -10;
+"seen_yeh-ar" = -10;
+"seen_yehHamzaabove-ar" = -10;
+"sheen-ar" = -10;
+"sheen-ar.init" = -10;
+"sheen_alefMaksura-ar" = -10;
+"sheen_yeh-ar" = -10;
+"sheen_yehHamzaabove-ar" = -10;
+"tah-ar" = -10;
+"tah-ar.init" = -10;
+"tcheh-ar.init" = -20;
+"teh-ar" = -20;
+"teh-ar.init" = -20;
+"teh_alefMaksura-ar" = -20;
+"teh_yeh-ar" = -20;
+"teh_yehHamzaabove-ar" = -20;
+"thal-ar" = -10;
+"theh-ar" = -20;
+"theh-ar.init" = -20;
+"theh_alefMaksura-ar" = -10;
+"theh_yeh-ar" = -10;
+"theh_yehHamzaabove-ar" = -10;
+"waw-ar" = -10;
+"yeh-ar.init" = 40;
+"yehHamzaabove-ar.init" = -20;
+"yehHamzaabove_alefMaksura-ar" = -20;
+"yehHamzaabove_yeh-ar" = -20;
+"yehHamzaabove_yehHamzaabove-ar" = -20;
+"zain-ar" = -10;
+};
+"@MMK_L_reh-ar.fina" = {
+"ain-ar.init" = -5;
+"alef-ar" = -10;
+"beh_yeh-ar" = -10;
+"beh_yehHamzaabove-ar" = -10;
+"dad_yehHamzaabove-ar" = -10;
+"dal-ar" = -10;
+"gaf-ar" = -10;
+"gaf-ar.init" = -10;
+"gaf_alefMaksura-ar" = -10;
+"gaf_yeh-ar" = -10;
+"gaf_yehHamzaabove-ar" = -10;
+"ghain-ar" = -10;
+"hah-ar.init" = -20;
+"heh-ar" = -20;
+"heh-ar.init" = -20;
+"jeem-ar.init" = -20;
+"jeh-ar" = -10;
+"kaf_alefMaksura-ar" = -20;
+"kaf_yeh-ar" = -20;
+"kaf_yehHamzaabove-ar" = -20;
+"keheh-ar" = -20;
+"keheh-ar.init" = -20;
+"khah-ar.init" = -20;
+"lam-ar.init" = -30;
+"lam_alef-ar" = -20;
+"lam_alefHamzaabove-ar" = -20;
+"lam_alefHamzabelow-ar" = -20;
+"lam_alefMadda-ar" = -20;
+"lam_alefMaksura-ar" = -20;
+"lam_alefWasla-ar" = -20;
+"lam_meem-ar.init" = -20;
+"lam_yeh-ar" = -20;
+"lam_yehHamzaabove-ar" = -20;
+"meem-ar" = -20;
+"meem-ar.init" = -20;
+"noon-ar.init" = -10;
+"noon_alefMaksura-ar" = -10;
+"noon_yeh-ar" = -10;
+"noon_yehHamzaabove-ar" = -10;
+"peh-ar" = -10;
+"peh-ar.init" = 40;
+"peh_alefMaksura-ar" = -20;
+"peh_yeh-ar" = -20;
+"peh_yehHamzaabove-ar" = -20;
+"qaf-ar.init" = -10;
+"qaf_alefMaksura-ar" = -10;
+"qaf_yeh-ar" = -10;
+"qaf_yehHamzaabove-ar" = -10;
+"reh-ar" = -10;
+"sad-ar" = -10;
+"sad-ar.init" = -10;
+"sad_alefMaksura-ar" = -10;
+"sad_reh-ar" = -10;
+"sad_yeh-ar" = -10;
+"sad_yehHamzaabove-ar" = -10;
+"sad_zain-ar" = -10;
+"seen-ar" = -10;
+"seen-ar.init" = -10;
+"seen_alefMaksura-ar" = -10;
+"seen_reh-ar" = -10;
+"seen_yeh-ar" = -10;
+"seen_yehHamzaabove-ar" = -10;
+"sheen-ar" = -10;
+"sheen-ar.init" = -10;
+"sheen_alefMaksura-ar" = -10;
+"sheen_reh-ar" = -10;
+"sheen_yeh-ar" = -10;
+"sheen_yehHamzaabove-ar" = -10;
+"tah-ar" = -10;
+"tah-ar.init" = -10;
+"tcheh-ar.init" = -20;
+"teh-ar" = -20;
+"teh-ar.init" = -20;
+"teh_alefMaksura-ar" = -20;
+"teh_yeh-ar" = -20;
+"teh_yehHamzaabove-ar" = -20;
+"thal-ar" = -10;
+"theh-ar" = -20;
+"theh-ar.init" = -20;
+"theh_alefMaksura-ar" = -10;
+"theh_yeh-ar" = -10;
+"theh_yehHamzaabove-ar" = -10;
+"waw-ar" = -10;
+"yeh-ar.init" = 40;
+"yehHamzaabove-ar.init" = -20;
+"yehHamzaabove_alefMaksura-ar" = -20;
+"yehHamzaabove_yeh-ar" = -20;
+"yehHamzaabove_yehHamzaabove-ar" = -20;
+"zain-ar" = -10;
 };
 };
 };
