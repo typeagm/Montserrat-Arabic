@@ -1,5 +1,8 @@
 {
-.appVersion = "998";
+.appVersion = "1000";
+DisplayStrings = (
+"/feh-ar/lam-ar/yeh-ar/teh-ar/waw-ar/kaf-ar/lam-ar"
+);
 classes = (
 {
 automatic = 1;
@@ -108057,7 +108060,7 @@ name = "beh_alefMaksura-ar.fina";
 {
 anchor = top_2;
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, -5, -346}";
+transform = "{1, 0, 0, 1, -5, -316}";
 }
 );
 layerId = UUID0;
@@ -108097,7 +108100,7 @@ name = "beh_alefMaksura-ar.fina";
 {
 anchor = top_2;
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, 18, -260}";
+transform = "{1, 0, 0, 1, 18, -229}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
@@ -109216,7 +109219,7 @@ name = "peh_alefMaksura-ar";
 {
 anchor = top_2;
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, -5, -346}";
+transform = "{1, 0, 0, 1, -5, -316}";
 }
 );
 layerId = UUID0;
@@ -109230,7 +109233,7 @@ name = "peh_alefMaksura-ar";
 {
 anchor = top_2;
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, 18, -259}";
+transform = "{1, 0, 0, 1, 18, -229}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
@@ -109291,7 +109294,7 @@ name = "peh_alefMaksura-ar.fina";
 {
 anchor = top_2;
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, -5, -346}";
+transform = "{1, 0, 0, 1, -5, -316}";
 }
 );
 layerId = UUID0;
@@ -109331,7 +109334,7 @@ name = "peh_alefMaksura-ar.fina";
 {
 anchor = top_2;
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, 18, -260}";
+transform = "{1, 0, 0, 1, 18, -229}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
