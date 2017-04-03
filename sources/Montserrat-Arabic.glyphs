@@ -1,7 +1,12 @@
 {
-.appVersion = "1000";
+.appVersion = "1005";
 DisplayStrings = (
-"/feh-ar/lam-ar/yeh-ar/teh-ar/waw-ar/kaf-ar/lam-ar"
+"/alef-ar/lam-ar/hah-ar/kaf-ar/yeh-ar/meem-ar",
+"/lam_alef-ar",
+"/madda-ar",
+"/fatha-ar",
+"/hamzaabove-ar",
+/tildecomb.loclVIET/tildecomb_macroncomb/tildecomb_macroncomb.sc
 );
 classes = (
 {
@@ -74,7 +79,7 @@ name = vendorID;
 value = "1KTF";
 }
 );
-date = "2017-03-29 00:34:21 +0000";
+date = "2017-04-03 16:46:20 +0000";
 designer = "Mohamed Gaber";
 designerURL = "http://gaber.design/";
 familyName = "Montserrat-Arabic";
@@ -187,7 +192,7 @@ code = "sub alef-ar by alef-ar.fina;\012sub alefHamzaabove-ar by alefHamzaabove-
 name = fina;
 },
 {
-code = "lookupflag IgnoreMarks RightToLeft;\012sub alef-ar lam-ar.init lam-ar.medi heh-ar.fina by allah-ar;\012	sub lam-ar.init alef-ar.fina by lam_alef-ar;\012	sub lam-ar.medi alef-ar.fina by lam_alef-ar.fina;\012	sub lam-ar.init alefHamzaabove-ar.fina by lam_alefHamzaabove-ar;\012	sub lam-ar.medi alefHamzaabove-ar.fina by lam_alefHamzaabove-ar.fina;\012	sub lam-ar.init alefHamzabelow-ar.fina by lam_alefHamzabelow-ar;\012	sub lam-ar.medi alefHamzabelow-ar.fina by lam_alefHamzabelow-ar.fina;\012	sub lam-ar.init alefMadda-ar.fina by lam_alefMadda-ar;\012	sub lam-ar.medi alefMadda-ar.fina by lam_alefMadda-ar.fina;\012	sub lam-ar.init alefWasla-ar.fina by lam_alefWasla-ar;\012	sub lam-ar.medi alefWasla-ar.fina by lam_alefWasla-ar.fina;\012	sub lam-ar.init alefMaksura-ar.fina by lam_alefMaksura-ar;\012	sub lam-ar.medi alefMaksura-ar.fina by lam_alefMaksura-ar.fina;\012sub beh-ar.medi reh-ar.fina by beh_reh-ar.fina;\012sub beh-ar.medi zain-ar.fina by beh_zain-ar.fina;\012sub beh-ar.medi noon-ar.fina by beh_noon-ar.fina;\012sub beh-ar.init alefMaksura-ar.fina by beh_alefMaksura-ar;\012sub beh-ar.medi alefMaksura-ar.fina by beh_alefMaksura-ar.fina;\012sub beh-ar.init yeh-ar.fina by beh_yeh-ar;\012sub beh-ar.medi yeh-ar.fina by beh_yeh-ar.fina;\012sub beh-ar.init yehHamzaabove-ar.fina by beh_yehHamzaabove-ar;\012sub beh-ar.medi yehHamzaabove-ar.fina by beh_yehHamzaabove-ar.fina;\012sub peh-ar.medi reh-ar.fina by peh_reh-ar.fina;\012sub peh-ar.medi zain-ar.fina by peh_zain-ar.fina;\012sub peh-ar.medi noon-ar.fina by peh_noon-ar.fina;\012sub peh-ar.init alefMaksura-ar.fina by peh_alefMaksura-ar;\012sub peh-ar.medi alefMaksura-ar.fina by peh_alefMaksura-ar.fina;\012sub peh-ar.init yeh-ar.fina by peh_yeh-ar;\012sub peh-ar.medi yeh-ar.fina by peh_yeh-ar.fina;\012sub peh-ar.init yehHamzaabove-ar.fina by peh_yehHamzaabove-ar;\012sub peh-ar.medi yehHamzaabove-ar.fina by peh_yehHamzaabove-ar.fina;\012sub teh-ar.medi reh-ar.fina by teh_reh-ar.fina;\012sub teh-ar.medi zain-ar.fina by teh_zain-ar.fina;\012sub teh-ar.medi noon-ar.fina by teh_noon-ar.fina;\012sub teh-ar.init alefMaksura-ar.fina by teh_alefMaksura-ar;\012sub teh-ar.medi alefMaksura-ar.fina by teh_alefMaksura-ar.fina;\012sub teh-ar.init yeh-ar.fina by teh_yeh-ar;\012sub teh-ar.medi yeh-ar.fina by teh_yeh-ar.fina;\012sub teh-ar.init yehHamzaabove-ar.fina by teh_yehHamzaabove-ar;\012sub teh-ar.medi yehHamzaabove-ar.fina by teh_yehHamzaabove-ar.fina;\012sub theh-ar.medi reh-ar.fina by theh_reh-ar.fina;\012sub theh-ar.medi zain-ar.fina by theh_zain-ar.fina;\012sub theh-ar.medi noon-ar.fina by theh_noon-ar.fina;\012sub theh-ar.init alefMaksura-ar.fina by theh_alefMaksura-ar;\012sub theh-ar.medi alefMaksura-ar.fina by theh_alefMaksura-ar.fina;\012sub theh-ar.init yeh-ar.fina by theh_yeh-ar;\012sub theh-ar.medi yeh-ar.fina by theh_yeh-ar.fina;\012sub theh-ar.init yehHamzaabove-ar.fina by theh_yehHamzaabove-ar;\012sub theh-ar.medi yehHamzaabove-ar.fina by theh_yehHamzaabove-ar.fina;\012sub seen-ar.init reh-ar.fina by seen_reh-ar;\012sub seen-ar.medi reh-ar.fina by seen_reh-ar.fina;\012sub seen-ar.init alefMaksura-ar.fina by seen_alefMaksura-ar;\012sub seen-ar.medi alefMaksura-ar.fina by seen_alefMaksura-ar.fina;\012sub seen-ar.init yeh-ar.fina by seen_yeh-ar;\012sub seen-ar.medi yeh-ar.fina by seen_yeh-ar.fina;\012sub seen-ar.init zain-ar.fina by seen_zain-ar;\012sub seen-ar.medi zain-ar.fina by seen_zain-ar.fina;\012sub seen-ar.init yehHamzaabove-ar.fina by seen_yehHamzaabove-ar;\012sub seen-ar.medi yehHamzaabove-ar.fina by seen_yehHamzaabove-ar.fina;\012sub sheen-ar.init reh-ar.fina by sheen_reh-ar;\012sub sheen-ar.medi reh-ar.fina by sheen_reh-ar.fina;\012sub sheen-ar.init zain-ar.fina by sheen_zain-ar;\012sub sheen-ar.medi zain-ar.fina by sheen_zain-ar.fina;\012sub sheen-ar.init alefMaksura-ar.fina by sheen_alefMaksura-ar;\012sub sheen-ar.medi alefMaksura-ar.fina by sheen_alefMaksura-ar.fina;\012sub sheen-ar.init yeh-ar.fina by sheen_yeh-ar;\012sub sheen-ar.medi yeh-ar.fina by sheen_yeh-ar.fina;\012sub sheen-ar.init yehHamzaabove-ar.fina by sheen_yehHamzaabove-ar;\012sub sheen-ar.medi yehHamzaabove-ar.fina by sheen_yehHamzaabove-ar.fina;\012sub sad-ar.init reh-ar.fina by sad_reh-ar;\012sub sad-ar.medi reh-ar.fina by sad_reh-ar.fina;\012sub sad-ar.init zain-ar.fina by sad_zain-ar;\012sub sad-ar.medi zain-ar.fina by sad_zain-ar.fina;\012sub sad-ar.init alefMaksura-ar.fina by sad_alefMaksura-ar;\012sub sad-ar.medi alefMaksura-ar.fina by sad_alefMaksura-ar.fina;\012sub sad-ar.init yeh-ar.fina by sad_yeh-ar;\012sub sad-ar.medi yeh-ar.fina by sad_yeh-ar.fina;\012sub sad-ar.init yehHamzaabove-ar.fina by sad_yehHamzaabove-ar;\012sub sad-ar.medi yehHamzaabove-ar.fina by sad_yehHamzaabove-ar.fina;\012sub dad-ar.init reh-ar.fina by dad_reh-ar;\012sub dad-ar.medi reh-ar.fina by dad_reh-ar.fina;\012sub dad-ar.init zain-ar.fina by dad_zain-ar;\012sub dad-ar.medi zain-ar.fina by dad_zain-ar.fina;\012sub dad-ar.init alefMaksura-ar.fina by dad_alefMaksura-ar;\012sub dad-ar.medi alefMaksura-ar.fina by dad_alefMaksura-ar.fina;\012sub dad-ar.init yeh-ar.fina by dad_yeh-ar;\012sub dad-ar.medi yeh-ar.fina by dad_yeh-ar.fina;\012sub dad-ar.init yehHamzaabove-ar.fina by dad_yehHamzaabove-ar;\012sub dad-ar.medi yehHamzaabove-ar.fina by dad_yehHamzaabove-ar.fina;\012sub feh-ar.init alefMaksura-ar.fina by feh_alefMaksura-ar;\012sub feh-ar.init yeh-ar.fina by feh_yeh-ar;\012sub feh-ar.init yehHamzaabove-ar.fina by feh_yehHamzaabove-ar;\012sub qaf-ar.init alefMaksura-ar.fina by qaf_alefMaksura-ar;\012sub qaf-ar.init yeh-ar.fina by qaf_yeh-ar;\012sub qaf-ar.init yehHamzaabove-ar.fina by qaf_yehHamzaabove-ar;\012sub kaf-ar.init lam-ar.fina by kaf_lam-ar;\012sub kaf-ar.init alefMaksura-ar.fina by kaf_alefMaksura-ar;\012sub kaf-ar.medi alefMaksura-ar.fina by kaf_alefMaksura-ar.fina;\012sub kaf-ar.init yeh-ar.fina by kaf_yeh-ar;\012sub kaf-ar.medi yeh-ar.fina by kaf_yeh-ar.fina;\012sub kaf-ar.init yehHamzaabove-ar.fina by kaf_yehHamzaabove-ar;\012sub kaf-ar.medi yehHamzaabove-ar.fina by kaf_yehHamzaabove-ar.fina;\012sub gaf-ar.init alefMaksura-ar.fina by gaf_alefMaksura-ar;\012sub gaf-ar.medi alefMaksura-ar.fina by gaf_alefMaksura-ar.fina;\012sub gaf-ar.init yeh-ar.fina by gaf_yeh-ar;\012sub gaf-ar.medi yeh-ar.fina by gaf_yeh-ar.fina;\012sub gaf-ar.init yehHamzaabove-ar.fina by gaf_yehHamzaabove-ar;\012sub gaf-ar.medi yehHamzaabove-ar.fina by gaf_yehHamzaabove-ar.fina;\012sub lam-ar.init meem-ar.medi by lam_meem-ar.init;\012sub lam-ar.init alefMaksura-ar.fina by lam_alefMaksura-ar;\012sub lam-ar.medi alefMaksura-ar.fina by lam_alefMaksura-ar.fina;\012sub lam-ar.init yeh-ar.fina by lam_yeh-ar;\012sub lam-ar.medi yeh-ar.fina by lam_yeh-ar.fina;\012sub lam-ar.init yehHamzaabove-ar.fina by lam_yehHamzaabove-ar;\012sub lam-ar.medi yehHamzaabove-ar.fina by lam_yehHamzaabove-ar.fina;\012sub noon-ar.medi reh-ar.fina by noon_reh-ar.fina;\012sub noon-ar.medi zain-ar.fina by noon_zain-ar.fina;\012sub noon-ar.medi noon-ar.fina by noon_noon-ar.fina;\012sub noon-ar.init alefMaksura-ar.fina by noon_alefMaksura-ar;\012sub noon-ar.medi alefMaksura-ar.fina by noon_alefMaksura-ar.fina;\012sub noon-ar.init yeh-ar.fina by noon_yeh-ar;\012sub noon-ar.medi yeh-ar.fina by noon_yeh-ar.fina;\012sub noon-ar.fina yeh-ar.fina by noon_yeh-ar.fina.001;\012sub noon-ar.init yehHamzaabove-ar.fina by noon_yehHamzaabove-ar;\012sub noon-ar.medi yehHamzaabove-ar.fina by noon_yehHamzaabove-ar.fina;\012sub alefMaksura-ar reh-ar.fina by alefMaksura_reh-ar.fina;\012sub alefMaksura-ar zain-ar.fina by alefMaksura_zain-ar.fina;\012sub alefMaksura-ar noon-ar.fina by alefMaksura_noon-ar.fina;\012sub yeh-ar.medi reh-ar.fina by yeh_reh-ar.fina;\012sub yeh-ar.medi zain-ar.fina by yeh_zain-ar.fina;\012sub yeh-ar.medi noon-ar.fina by yeh_noon-ar.fina;\012sub yeh-ar.init yeh-ar.fina by yeh_yeh-ar;\012sub yeh-ar.medi yeh-ar.fina by yeh_yeh-ar.fina;\012sub yehHamzaabove-ar.medi reh-ar.fina by yehHamzaabove_reh-ar.fina;\012sub yehHamzaabove-ar.medi zain-ar.fina by yehHamzaabove_zain-ar.fina;\012sub yehHamzaabove-ar.medi noon-ar.fina by yehHamzaabove_noon-ar.fina;\012sub yehHamzaabove-ar.init alefMaksura-ar.fina by yehHamzaabove_alefMaksura-ar;\012sub yehHamzaabove-ar.medi alefMaksura-ar.fina by yehHamzaabove_alefMaksura-ar.fina;\012sub yehHamzaabove-ar.init yeh-ar.fina by yehHamzaabove_yeh-ar;\012sub yehHamzaabove-ar.medi yeh-ar.fina by yehHamzaabove_yeh-ar.fina;\012sub yehHamzaabove-ar.init yehHamzaabove-ar.fina by yehHamzaabove_yehHamzaabove-ar;\012sub yehHamzaabove-ar.medi yehHamzaabove-ar.fina by yehHamzaabove_yehHamzaabove-ar.fina;\012sub alef-ar lam-ar.init lam-ar.medi heh-ar.fina by allah-ar;";
+code = "lookupflag IgnoreMarks RightToLeft;\012sub alef-ar lam-ar.init lam-ar.medi heh-ar.fina by allah-ar;\012	sub lam-ar.init alef-ar.fina by lam_alef-ar;\012	sub lam-ar.medi alef-ar.fina by lam_alef-ar.fina;\012	sub lam-ar.init alefHamzaabove-ar.fina by lam_alefHamzaabove-ar;\012	sub lam-ar.medi alefHamzaabove-ar.fina by lam_alefHamzaabove-ar.fina;\012	sub lam-ar.init alefHamzabelow-ar.fina by lam_alefHamzabelow-ar;\012	sub lam-ar.medi alefHamzabelow-ar.fina by lam_alefHamzabelow-ar.fina;\012	sub lam-ar.init alefMadda-ar.fina by lam_alefMadda-ar;\012	sub lam-ar.medi alefMadda-ar.fina by lam_alefMadda-ar.fina;\012	sub lam-ar.init alefWasla-ar.fina by lam_alefWasla-ar;\012	sub lam-ar.medi alefWasla-ar.fina by lam_alefWasla-ar.fina;\012	sub lam-ar.init alefMaksura-ar.fina by lam_alefMaksura-ar;\012	sub lam-ar.medi alefMaksura-ar.fina by lam_alefMaksura-ar.fina;\012sub beh-ar.medi reh-ar.fina by beh_reh-ar.fina;\012sub beh-ar.medi zain-ar.fina by beh_zain-ar.fina;\012sub beh-ar.medi noon-ar.fina by beh_noon-ar.fina;\012sub beh-ar.init alefMaksura-ar.fina by beh_alefMaksura-ar;\012sub beh-ar.medi alefMaksura-ar.fina by beh_alefMaksura-ar.fina;\012sub beh-ar.init yeh-ar.fina by beh_yeh-ar;\012sub beh-ar.medi yeh-ar.fina by beh_yeh-ar.fina;\012sub beh-ar.init yehHamzaabove-ar.fina by beh_yehHamzaabove-ar;\012sub beh-ar.medi yehHamzaabove-ar.fina by beh_yehHamzaabove-ar.fina;\012sub peh-ar.medi reh-ar.fina by peh_reh-ar.fina;\012sub peh-ar.medi zain-ar.fina by peh_zain-ar.fina;\012sub peh-ar.medi noon-ar.fina by peh_noon-ar.fina;\012sub peh-ar.init alefMaksura-ar.fina by peh_alefMaksura-ar;\012sub peh-ar.medi alefMaksura-ar.fina by peh_alefMaksura-ar.fina;\012sub peh-ar.init yeh-ar.fina by peh_yeh-ar;\012sub peh-ar.medi yeh-ar.fina by peh_yeh-ar.fina;\012sub peh-ar.init yehHamzaabove-ar.fina by peh_yehHamzaabove-ar;\012sub peh-ar.medi yehHamzaabove-ar.fina by peh_yehHamzaabove-ar.fina;\012sub teh-ar.medi reh-ar.fina by teh_reh-ar.fina;\012sub teh-ar.medi zain-ar.fina by teh_zain-ar.fina;\012sub teh-ar.medi noon-ar.fina by teh_noon-ar.fina;\012sub teh-ar.init alefMaksura-ar.fina by teh_alefMaksura-ar;\012sub teh-ar.medi alefMaksura-ar.fina by teh_alefMaksura-ar.fina;\012sub teh-ar.init yeh-ar.fina by teh_yeh-ar;\012sub teh-ar.medi yeh-ar.fina by teh_yeh-ar.fina;\012sub teh-ar.init yehHamzaabove-ar.fina by teh_yehHamzaabove-ar;\012sub teh-ar.medi yehHamzaabove-ar.fina by teh_yehHamzaabove-ar.fina;\012sub theh-ar.medi reh-ar.fina by theh_reh-ar.fina;\012sub theh-ar.medi zain-ar.fina by theh_zain-ar.fina;\012sub theh-ar.medi noon-ar.fina by theh_noon-ar.fina;\012sub theh-ar.init alefMaksura-ar.fina by theh_alefMaksura-ar;\012sub theh-ar.medi alefMaksura-ar.fina by theh_alefMaksura-ar.fina;\012sub theh-ar.init yeh-ar.fina by theh_yeh-ar;\012sub theh-ar.medi yeh-ar.fina by theh_yeh-ar.fina;\012sub theh-ar.init yehHamzaabove-ar.fina by theh_yehHamzaabove-ar;\012sub theh-ar.medi yehHamzaabove-ar.fina by theh_yehHamzaabove-ar.fina;\012sub seen-ar.init reh-ar.fina by seen_reh-ar;\012sub seen-ar.medi reh-ar.fina by seen_reh-ar.fina;\012sub seen-ar.init alefMaksura-ar.fina by seen_alefMaksura-ar;\012sub seen-ar.medi alefMaksura-ar.fina by seen_alefMaksura-ar.fina;\012sub seen-ar.init yeh-ar.fina by seen_yeh-ar;\012sub seen-ar.medi yeh-ar.fina by seen_yeh-ar.fina;\012sub seen-ar.init zain-ar.fina by seen_zain-ar;\012sub seen-ar.medi zain-ar.fina by seen_zain-ar.fina;\012sub seen-ar.init yehHamzaabove-ar.fina by seen_yehHamzaabove-ar;\012sub seen-ar.medi yehHamzaabove-ar.fina by seen_yehHamzaabove-ar.fina;\012sub sheen-ar.init reh-ar.fina by sheen_reh-ar;\012sub sheen-ar.medi reh-ar.fina by sheen_reh-ar.fina;\012sub sheen-ar.init zain-ar.fina by sheen_zain-ar;\012sub sheen-ar.medi zain-ar.fina by sheen_zain-ar.fina;\012sub sheen-ar.init alefMaksura-ar.fina by sheen_alefMaksura-ar;\012sub sheen-ar.medi alefMaksura-ar.fina by sheen_alefMaksura-ar.fina;\012sub sheen-ar.init yeh-ar.fina by sheen_yeh-ar;\012sub sheen-ar.medi yeh-ar.fina by sheen_yeh-ar.fina;\012sub sheen-ar.init yehHamzaabove-ar.fina by sheen_yehHamzaabove-ar;\012sub sheen-ar.medi yehHamzaabove-ar.fina by sheen_yehHamzaabove-ar.fina;\012sub sad-ar.init reh-ar.fina by sad_reh-ar;\012sub sad-ar.medi reh-ar.fina by sad_reh-ar.fina;\012sub sad-ar.init zain-ar.fina by sad_zain-ar;\012sub sad-ar.medi zain-ar.fina by sad_zain-ar.fina;\012sub sad-ar.init alefMaksura-ar.fina by sad_alefMaksura-ar;\012sub sad-ar.medi alefMaksura-ar.fina by sad_alefMaksura-ar.fina;\012sub sad-ar.init yeh-ar.fina by sad_yeh-ar;\012sub sad-ar.medi yeh-ar.fina by sad_yeh-ar.fina;\012sub sad-ar.init yehHamzaabove-ar.fina by sad_yehHamzaabove-ar;\012sub sad-ar.medi yehHamzaabove-ar.fina by sad_yehHamzaabove-ar.fina;\012sub dad-ar.init reh-ar.fina by dad_reh-ar;\012sub dad-ar.medi reh-ar.fina by dad_reh-ar.fina;\012sub dad-ar.init zain-ar.fina by dad_zain-ar;\012sub dad-ar.medi zain-ar.fina by dad_zain-ar.fina;\012sub dad-ar.init alefMaksura-ar.fina by dad_alefMaksura-ar;\012sub dad-ar.medi alefMaksura-ar.fina by dad_alefMaksura-ar.fina;\012sub dad-ar.init yeh-ar.fina by dad_yeh-ar;\012sub dad-ar.medi yeh-ar.fina by dad_yeh-ar.fina;\012sub dad-ar.init yehHamzaabove-ar.fina by dad_yehHamzaabove-ar;\012sub dad-ar.medi yehHamzaabove-ar.fina by dad_yehHamzaabove-ar.fina;\012sub feh-ar.init alefMaksura-ar.fina by feh_alefMaksura-ar;\012sub feh-ar.init yeh-ar.fina by feh_yeh-ar;\012sub feh-ar.init yehHamzaabove-ar.fina by feh_yehHamzaabove-ar;\012sub qaf-ar.init alefMaksura-ar.fina by qaf_alefMaksura-ar;\012sub qaf-ar.init yeh-ar.fina by qaf_yeh-ar;\012sub qaf-ar.init yehHamzaabove-ar.fina by qaf_yehHamzaabove-ar;\012sub kaf-ar.init lam-ar.fina by kaf_lam-ar;\012sub kaf-ar.init alefMaksura-ar.fina by kaf_alefMaksura-ar;\012sub kaf-ar.medi alefMaksura-ar.fina by kaf_alefMaksura-ar.fina;\012sub kaf-ar.init yeh-ar.fina by kaf_yeh-ar;\012sub kaf-ar.medi yeh-ar.fina by kaf_yeh-ar.fina;\012sub kaf-ar.init yehHamzaabove-ar.fina by kaf_yehHamzaabove-ar;\012sub kaf-ar.medi yehHamzaabove-ar.fina by kaf_yehHamzaabove-ar.fina;\012sub gaf-ar.init alefMaksura-ar.fina by gaf_alefMaksura-ar;\012sub gaf-ar.medi alefMaksura-ar.fina by gaf_alefMaksura-ar.fina;\012sub gaf-ar.init yeh-ar.fina by gaf_yeh-ar;\012sub gaf-ar.medi yeh-ar.fina by gaf_yeh-ar.fina;\012sub gaf-ar.init yehHamzaabove-ar.fina by gaf_yehHamzaabove-ar;\012sub gaf-ar.medi yehHamzaabove-ar.fina by gaf_yehHamzaabove-ar.fina;\012sub lam-ar.init meem-ar.medi by lam_meem-ar.init;\012sub lam-ar.init alefMaksura-ar.fina by lam_alefMaksura-ar;\012sub lam-ar.medi alefMaksura-ar.fina by lam_alefMaksura-ar.fina;\012sub lam-ar.init yeh-ar.fina by lam_yeh-ar;\012sub lam-ar.medi yeh-ar.fina by lam_yeh-ar.fina;\012sub lam-ar.init yehHamzaabove-ar.fina by lam_yehHamzaabove-ar;\012sub lam-ar.medi yehHamzaabove-ar.fina by lam_yehHamzaabove-ar.fina;\012sub noon-ar.medi reh-ar.fina by noon_reh-ar.fina;\012sub noon-ar.medi zain-ar.fina by noon_zain-ar.fina;\012sub noon-ar.medi noon-ar.fina by noon_noon-ar.fina;\012sub noon-ar.init alefMaksura-ar.fina by noon_alefMaksura-ar;\012sub noon-ar.medi alefMaksura-ar.fina by noon_alefMaksura-ar.fina;\012sub noon-ar.init yeh-ar.fina by noon_yeh-ar;\012sub noon-ar.medi yeh-ar.fina by noon_yeh-ar.fina;\012sub noon-ar.init yehHamzaabove-ar.fina by noon_yehHamzaabove-ar;\012sub noon-ar.medi yehHamzaabove-ar.fina by noon_yehHamzaabove-ar.fina;\012sub alefMaksura-ar reh-ar.fina by alefMaksura_reh-ar.fina;\012sub alefMaksura-ar zain-ar.fina by alefMaksura_zain-ar.fina;\012sub alefMaksura-ar noon-ar.fina by alefMaksura_noon-ar.fina;\012sub yeh-ar.medi reh-ar.fina by yeh_reh-ar.fina;\012sub yeh-ar.medi zain-ar.fina by yeh_zain-ar.fina;\012sub yeh-ar.medi noon-ar.fina by yeh_noon-ar.fina;\012sub yeh-ar.init yeh-ar.fina by yeh_yeh-ar;\012sub yeh-ar.medi yeh-ar.fina by yeh_yeh-ar.fina;\012sub yehHamzaabove-ar.medi reh-ar.fina by yehHamzaabove_reh-ar.fina;\012sub yehHamzaabove-ar.medi zain-ar.fina by yehHamzaabove_zain-ar.fina;\012sub yehHamzaabove-ar.medi noon-ar.fina by yehHamzaabove_noon-ar.fina;\012sub yehHamzaabove-ar.init alefMaksura-ar.fina by yehHamzaabove_alefMaksura-ar;\012sub yehHamzaabove-ar.medi alefMaksura-ar.fina by yehHamzaabove_alefMaksura-ar.fina;\012sub yehHamzaabove-ar.init yeh-ar.fina by yehHamzaabove_yeh-ar;\012sub yehHamzaabove-ar.medi yeh-ar.fina by yehHamzaabove_yeh-ar.fina;\012sub yehHamzaabove-ar.init yehHamzaabove-ar.fina by yehHamzaabove_yehHamzaabove-ar;\012sub yehHamzaabove-ar.medi yehHamzaabove-ar.fina by yehHamzaabove_yehHamzaabove-ar.fina;\012sub alef-ar lam-ar.init lam-ar.medi heh-ar.fina by allah-ar;";
 name = rlig;
 },
 {
@@ -390,10 +395,10 @@ horizontalStems = (
 );
 id = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
 userData = {
-GSOffsetHorizontal = 57.5;
+GSOffsetHorizontal = 33;
 GSOffsetMakeStroke = 1;
 GSOffsetPosition = 1;
-GSOffsetVertical = 50.5;
+GSOffsetVertical = 33;
 };
 verticalStems = (
 115,
@@ -485,10 +490,10 @@ horizontalStems = (
 );
 id = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
 userData = {
-GSOffsetHorizontal = 112.5;
+GSOffsetHorizontal = 48;
 GSOffsetMakeStroke = 1;
 GSOffsetPosition = 1;
-GSOffsetVertical = 96.5;
+GSOffsetVertical = 48;
 };
 verticalStems = (
 225,
@@ -97298,7 +97303,7 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{114, -60}";
+position = "{174, -60}";
 },
 {
 name = entry;
@@ -97306,7 +97311,7 @@ position = "{450, 10}";
 },
 {
 name = top;
-position = "{114, 699}";
+position = "{174, 699}";
 }
 );
 components = (
@@ -97333,7 +97338,7 @@ width = 450;
 anchors = (
 {
 name = bottom;
-position = "{76, -60}";
+position = "{176, -60}";
 },
 {
 name = entry;
@@ -97341,7 +97346,7 @@ position = "{537, 50}";
 },
 {
 name = top;
-position = "{76, 700}";
+position = "{176, 730}";
 }
 );
 components = (
@@ -97368,7 +97373,7 @@ width = 537;
 anchors = (
 {
 name = bottom;
-position = "{109, -60}";
+position = "{265, -60}";
 },
 {
 name = entry;
@@ -97376,7 +97381,7 @@ position = "{708, 96}";
 },
 {
 name = top;
-position = "{109, 765}";
+position = "{265, 775}";
 }
 );
 components = (
@@ -127969,7 +127974,7 @@ position = "{605, -88}";
 },
 {
 name = bottom_3;
-position = "{267, -61}";
+position = "{267, -88}";
 },
 {
 name = caret_1;
@@ -128070,7 +128075,7 @@ position = "{728, -88}";
 },
 {
 name = bottom_3;
-position = "{267, -61}";
+position = "{297, -88}";
 },
 {
 name = caret_1;
@@ -128090,7 +128095,7 @@ position = "{1092, 866}";
 },
 {
 name = top_3;
-position = "{248, 567}";
+position = "{297, 627}";
 }
 );
 components = (
@@ -128171,7 +128176,7 @@ position = "{936, -88}";
 },
 {
 name = bottom_3;
-position = "{330, -61}";
+position = "{330, -88}";
 },
 {
 name = caret_1;
@@ -128191,7 +128196,7 @@ position = "{1430, 866}";
 },
 {
 name = top_3;
-position = "{280, 701}";
+position = "{330, 741}";
 }
 );
 components = (
@@ -184838,7 +184843,7 @@ position = "{71, 521}";
 },
 {
 name = top;
-position = "{71, 706}";
+position = "{71, 686}";
 }
 );
 layerId = UUID0;
@@ -184888,7 +184893,7 @@ position = "{103, 511}";
 },
 {
 name = top;
-position = "{103, 763}";
+position = "{103, 753}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
@@ -185303,7 +185308,7 @@ transform = "{1, 0, 0, 1, 39, 0}";
 },
 {
 name = "damma-ar";
-transform = "{1, 0, 0, 1, 0, 241}";
+transform = "{1, 0, 0, 1, 0, 221}";
 }
 );
 layerId = UUID0;
@@ -185327,7 +185332,7 @@ transform = "{1, 0, 0, 1, 40, 0}";
 },
 {
 name = "damma-ar";
-transform = "{1, 0, 0, 1, 0, 284}";
+transform = "{1, 0, 0, 1, 0, 274}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
@@ -185380,7 +185385,7 @@ transform = "{1, 0, 0, 1, 39, 0}";
 },
 {
 name = "dammatan-ar";
-transform = "{1, 0, 0, 1, 0, 241}";
+transform = "{1, 0, 0, 1, 0, 221}";
 }
 );
 layerId = UUID0;
@@ -185404,7 +185409,7 @@ transform = "{1, 0, 0, 1, 40, 0}";
 },
 {
 name = "dammatan-ar";
-transform = "{1, 0, 0, 1, 0, 284}";
+transform = "{1, 0, 0, 1, 0, 274}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
@@ -185457,7 +185462,7 @@ transform = "{1, 0, 0, 1, 49, 0}";
 },
 {
 name = "fatha-ar";
-transform = "{1, 0, 0, 1, 0, 143}";
+transform = "{1, 0, 0, 1, 0, 123}";
 }
 );
 layerId = UUID0;
@@ -185481,7 +185486,7 @@ transform = "{1, 0, 0, 1, 42, 0}";
 },
 {
 name = "fatha-ar";
-transform = "{1, 0, 0, 1, 0, 210}";
+transform = "{1, 0, 0, 1, 0, 200}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
@@ -185534,7 +185539,7 @@ transform = "{1, 0, 0, 1, 49, 0}";
 },
 {
 name = "fathatan-ar";
-transform = "{1, 0, 0, 1, 0, 143}";
+transform = "{1, 0, 0, 1, 0, 123}";
 }
 );
 layerId = UUID0;
@@ -185558,7 +185563,7 @@ transform = "{1, 0, 0, 1, 42, 0}";
 },
 {
 name = "fathatan-ar";
-transform = "{1, 0, 0, 1, 0, 210}";
+transform = "{1, 0, 0, 1, 0, 200}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
@@ -185601,7 +185606,7 @@ position = "{94, 521}";
 },
 {
 name = top;
-position = "{94, 914}";
+position = "{94, 874}";
 }
 );
 components = (
@@ -185611,7 +185616,7 @@ transform = "{1, 0, 0, 1, 23, 0}";
 },
 {
 name = "sukun-ar";
-transform = "{1, 0, 0, 1, 0, 239}";
+transform = "{1, 0, 0, 1, 0, 200}";
 }
 );
 layerId = UUID0;
@@ -185625,7 +185630,7 @@ position = "{123, 511}";
 },
 {
 name = top;
-position = "{123, 1027}";
+position = "{123, 997}";
 }
 );
 components = (
@@ -185635,7 +185640,7 @@ transform = "{1, 0, 0, 1, 20, 0}";
 },
 {
 name = "sukun-ar";
-transform = "{1, 0, 0, 1, 0, 328}";
+transform = "{1, 0, 0, 1, 1, 294}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
@@ -185649,7 +185654,7 @@ position = "{167, 316}";
 },
 {
 name = top;
-position = "{167, 1036}";
+position = "{167, 1006}";
 }
 );
 components = (
@@ -185659,7 +185664,7 @@ transform = "{1, 0, 0, 1, 18, 0}";
 },
 {
 name = "sukun-ar";
-transform = "{1, 0, 0, 1, 0, 306}";
+transform = "{1, 0, 0, 1, 1, 273}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
@@ -186509,6 +186514,216 @@ layers = (
 anchors = (
 {
 name = _top;
+position = "{120, 477}";
+},
+{
+name = top;
+position = "{120, 688}";
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"212 648 OFFCURVE",
+"218 623 OFFCURVE",
+"218 605 CURVE SMOOTH",
+"218 571 OFFCURVE",
+"197 544 OFFCURVE",
+"173 544 CURVE SMOOTH",
+"149 544 OFFCURVE",
+"129 565 OFFCURVE",
+"129 589 CURVE SMOOTH",
+"129 637 LINE",
+"109 637 LINE",
+"109 589 LINE SMOOTH",
+"109 551 OFFCURVE",
+"141 524 OFFCURVE",
+"173 524 CURVE SMOOTH",
+"210 524 OFFCURVE",
+"238 561 OFFCURVE",
+"238 605 CURVE SMOOTH",
+"238 627 OFFCURVE",
+"231 655 OFFCURVE",
+"222 671 CURVE",
+"205 661 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"16 671 LINE",
+"7 655 OFFCURVE",
+"0 627 OFFCURVE",
+"0 605 CURVE SMOOTH",
+"0 561 OFFCURVE",
+"28 524 OFFCURVE",
+"65 524 CURVE SMOOTH",
+"97 524 OFFCURVE",
+"129 551 OFFCURVE",
+"129 589 CURVE SMOOTH",
+"129 637 LINE",
+"109 637 LINE",
+"109 589 LINE SMOOTH",
+"109 565 OFFCURVE",
+"89 544 OFFCURVE",
+"65 544 CURVE SMOOTH",
+"41 544 OFFCURVE",
+"20 571 OFFCURVE",
+"20 605 CURVE SMOOTH",
+"20 623 OFFCURVE",
+"26 648 OFFCURVE",
+"33 661 CURVE"
+);
+}
+);
+width = 238;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{145, 444}";
+},
+{
+name = top;
+position = "{145, 701}";
+}
+);
+layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
+paths = (
+{
+closed = 1;
+nodes = (
+"233 626 OFFCURVE",
+"239 600 OFFCURVE",
+"239 580 CURVE SMOOTH",
+"239 549 OFFCURVE",
+"221 524 OFFCURVE",
+"204 524 CURVE SMOOTH",
+"188 524 OFFCURVE",
+"172 540 OFFCURVE",
+"172 558 CURVE SMOOTH",
+"172 622 LINE",
+"122 622 LINE",
+"122 558 LINE SMOOTH",
+"122 509 OFFCURVE",
+"164 474 OFFCURVE",
+"204 474 CURVE SMOOTH",
+"252 474 OFFCURVE",
+"289 523 OFFCURVE",
+"289 580 CURVE SMOOTH",
+"289 608 OFFCURVE",
+"280 644 OFFCURVE",
+"269 665 CURVE",
+"225 642 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"20 665 LINE",
+"9 644 OFFCURVE",
+"0 608 OFFCURVE",
+"0 580 CURVE SMOOTH",
+"0 523 OFFCURVE",
+"37 474 OFFCURVE",
+"85 474 CURVE SMOOTH",
+"125 474 OFFCURVE",
+"167 509 OFFCURVE",
+"167 558 CURVE SMOOTH",
+"167 622 LINE",
+"117 622 LINE",
+"117 558 LINE SMOOTH",
+"117 540 OFFCURVE",
+"101 524 OFFCURVE",
+"85 524 CURVE SMOOTH",
+"68 524 OFFCURVE",
+"50 549 OFFCURVE",
+"50 580 CURVE SMOOTH",
+"50 600 OFFCURVE",
+"56 626 OFFCURVE",
+"64 642 CURVE"
+);
+}
+);
+width = 289;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{190, 405}";
+},
+{
+name = top;
+position = "{190, 721}";
+}
+);
+layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+paths = (
+{
+closed = 1;
+nodes = (
+"276 646 OFFCURVE",
+"283 617 OFFCURVE",
+"283 594 CURVE SMOOTH",
+"283 560 OFFCURVE",
+"268 546 OFFCURVE",
+"260 546 CURVE SMOOTH",
+"253 546 OFFCURVE",
+"242 557 OFFCURVE",
+"242 577 CURVE SMOOTH",
+"242 649 LINE",
+"146 649 LINE",
+"146 567 LINE SMOOTH",
+"146 505 OFFCURVE",
+"200 450 OFFCURVE",
+"260 450 CURVE SMOOTH",
+"326 450 OFFCURVE",
+"379 515 OFFCURVE",
+"379 594 CURVE SMOOTH",
+"379 630 OFFCURVE",
+"368 677 OFFCURVE",
+"353 708 CURVE",
+"267 666 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"26 708 LINE",
+"11 677 OFFCURVE",
+"0 630 OFFCURVE",
+"0 594 CURVE SMOOTH",
+"0 515 OFFCURVE",
+"53 450 OFFCURVE",
+"119 450 CURVE SMOOTH",
+"179 450 OFFCURVE",
+"233 505 OFFCURVE",
+"233 567 CURVE SMOOTH",
+"233 649 LINE",
+"137 649 LINE",
+"137 577 LINE SMOOTH",
+"137 557 OFFCURVE",
+"126 546 OFFCURVE",
+"119 546 CURVE SMOOTH",
+"111 546 OFFCURVE",
+"96 560 OFFCURVE",
+"96 594 CURVE SMOOTH",
+"96 617 OFFCURVE",
+"103 646 OFFCURVE",
+"112 666 CURVE"
+);
+}
+);
+width = 379;
+},
+{
+anchors = (
+{
+name = _top;
 position = "{131, 477}";
 },
 {
@@ -186516,7 +186731,9 @@ name = top;
 position = "{131, 718}";
 }
 );
-layerId = UUID0;
+associatedMasterId = UUID0;
+layerId = "0A801B12-3944-45FB-8D3D-2BAEDC7BA617";
+name = "Apr 3 17, 19:22";
 paths = (
 {
 closed = 1;
@@ -186586,7 +186803,9 @@ name = top;
 position = "{162, 729}";
 }
 );
-layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
+associatedMasterId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
+layerId = "A71DF459-C220-4110-ACA6-1D563986E925";
+name = "Apr 3 17, 19:22";
 paths = (
 {
 closed = 1;
@@ -186656,7 +186875,9 @@ name = top;
 position = "{211, 774}";
 }
 );
-layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+associatedMasterId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+layerId = "95D7A9C7-B2A8-4098-A0DA-E09CED1772B8";
+name = "Apr 3 17, 19:34";
 paths = (
 {
 closed = 1;
@@ -186725,6 +186946,156 @@ layers = (
 anchors = (
 {
 name = _top;
+position = "{94, 486}";
+},
+{
+name = top;
+position = "{94, 656}";
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"19 539 OFFCURVE",
+"52 506 OFFCURVE",
+"94 506 CURVE SMOOTH",
+"136 506 OFFCURVE",
+"169 539 OFFCURVE",
+"169 581 CURVE SMOOTH",
+"169 623 OFFCURVE",
+"136 656 OFFCURVE",
+"94 656 CURVE SMOOTH",
+"52 656 OFFCURVE",
+"19 623 OFFCURVE",
+"19 581 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"39 612 OFFCURVE",
+"63 636 OFFCURVE",
+"94 636 CURVE SMOOTH",
+"125 636 OFFCURVE",
+"149 612 OFFCURVE",
+"149 581 CURVE SMOOTH",
+"149 550 OFFCURVE",
+"125 526 OFFCURVE",
+"94 526 CURVE SMOOTH",
+"63 526 OFFCURVE",
+"39 550 OFFCURVE",
+"39 581 CURVE SMOOTH"
+);
+}
+);
+width = 188;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{122, 459}";
+},
+{
+name = top;
+position = "{122, 675}";
+}
+);
+layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
+paths = (
+{
+closed = 1;
+nodes = (
+"25 523 OFFCURVE",
+"69 479 OFFCURVE",
+"122 479 CURVE SMOOTH",
+"177 479 OFFCURVE",
+"221 523 OFFCURVE",
+"221 577 CURVE SMOOTH",
+"221 631 OFFCURVE",
+"177 675 OFFCURVE",
+"122 675 CURVE SMOOTH",
+"69 675 OFFCURVE",
+"25 631 OFFCURVE",
+"25 577 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"75 603 OFFCURVE",
+"97 625 OFFCURVE",
+"122 625 CURVE SMOOTH",
+"149 625 OFFCURVE",
+"171 603 OFFCURVE",
+"171 577 CURVE SMOOTH",
+"171 551 OFFCURVE",
+"149 529 OFFCURVE",
+"122 529 CURVE SMOOTH",
+"97 529 OFFCURVE",
+"75 551 OFFCURVE",
+"75 577 CURVE SMOOTH"
+);
+}
+);
+width = 245;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{166, 411}";
+},
+{
+name = top;
+position = "{166, 697}";
+}
+);
+layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+paths = (
+{
+closed = 1;
+nodes = (
+"33 490 OFFCURVE",
+"93 431 OFFCURVE",
+"166 431 CURVE SMOOTH",
+"240 431 OFFCURVE",
+"300 490 OFFCURVE",
+"300 564 CURVE SMOOTH",
+"300 638 OFFCURVE",
+"240 697 OFFCURVE",
+"166 697 CURVE SMOOTH",
+"93 697 OFFCURVE",
+"33 638 OFFCURVE",
+"33 564 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"129 584 OFFCURVE",
+"146 601 OFFCURVE",
+"166 601 CURVE SMOOTH",
+"187 601 OFFCURVE",
+"204 585 OFFCURVE",
+"204 564 CURVE SMOOTH",
+"204 543 OFFCURVE",
+"187 527 OFFCURVE",
+"166 527 CURVE SMOOTH",
+"146 527 OFFCURVE",
+"129 544 OFFCURVE",
+"129 564 CURVE SMOOTH"
+);
+}
+);
+width = 333;
+},
+{
+anchors = (
+{
+name = _top;
 position = "{94, 467}";
 },
 {
@@ -186732,7 +187103,9 @@ name = top;
 position = "{94, 675}";
 }
 );
-layerId = UUID0;
+associatedMasterId = UUID0;
+layerId = "EC5C00E2-4946-414C-A603-DA014D2620AF";
+name = "Apr 3 17, 19:46";
 paths = (
 {
 closed = 1;
@@ -186782,7 +187155,9 @@ name = top;
 position = "{123, 699}";
 }
 );
-layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
+associatedMasterId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
+layerId = "628C1ADA-596C-4811-8503-5ACF0D77A3E8";
+name = "Apr 3 17, 20:09";
 paths = (
 {
 closed = 1;
@@ -186832,7 +187207,9 @@ name = top;
 position = "{167, 730}";
 }
 );
-layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+associatedMasterId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+layerId = "E2905DBA-BC28-4F48-ADAA-D02B489CA477";
+name = "Apr 3 17, 20:10";
 paths = (
 {
 closed = 1;
@@ -186893,30 +187270,112 @@ paths = (
 {
 closed = 1;
 nodes = (
-"246 701 LINE",
-"246 663 OFFCURVE",
-"228 640 OFFCURVE",
-"196 640 CURVE SMOOTH",
-"148 640 OFFCURVE",
-"127 705 OFFCURVE",
-"71 705 CURVE SMOOTH",
-"27 705 OFFCURVE",
-"0 673 OFFCURVE",
+"247 691 LINE",
+"247 661 OFFCURVE",
+"229 640 OFFCURVE",
+"198 640 CURVE SMOOTH",
+"147 640 OFFCURVE",
+"130 695 OFFCURVE",
+"71 695 CURVE SMOOTH",
+"29 695 OFFCURVE",
+"0 667 OFFCURVE",
 "0 624 CURVE",
-"19 624 LINE",
-"19 662 OFFCURVE",
-"37 685 OFFCURVE",
-"69 685 CURVE SMOOTH",
-"117 685 OFFCURVE",
-"138 620 OFFCURVE",
-"194 620 CURVE SMOOTH",
-"238 620 OFFCURVE",
-"265 652 OFFCURVE",
-"265 701 CURVE"
+"20 624 LINE",
+"20 655 OFFCURVE",
+"38 676 OFFCURVE",
+"69 676 CURVE SMOOTH",
+"120 676 OFFCURVE",
+"137 621 OFFCURVE",
+"196 621 CURVE SMOOTH",
+"238 621 OFFCURVE",
+"266 649 OFFCURVE",
+"266 691 CURVE"
 );
 }
 );
-width = 265;
+width = 266;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{158, 578}";
+},
+{
+name = top;
+position = "{158, 732}";
+}
+);
+layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
+paths = (
+{
+closed = 1;
+nodes = (
+"252 713 LINE",
+"252 689 OFFCURVE",
+"246 670 OFFCURVE",
+"223 670 CURVE SMOOTH",
+"188 670 OFFCURVE",
+"141 717 OFFCURVE",
+"82 717 CURVE SMOOTH",
+"20 717 OFFCURVE",
+"0 665 OFFCURVE",
+"0 602 CURVE",
+"64 602 LINE",
+"64 626 OFFCURVE",
+"70 646 OFFCURVE",
+"93 646 CURVE SMOOTH",
+"129 646 OFFCURVE",
+"175 599 OFFCURVE",
+"234 599 CURVE SMOOTH",
+"296 599 OFFCURVE",
+"316 650 OFFCURVE",
+"316 713 CURVE"
+);
+}
+);
+width = 316;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{185, 579}";
+},
+{
+name = top;
+position = "{185, 779}";
+}
+);
+layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+paths = (
+{
+closed = 1;
+nodes = (
+"274 743 LINE",
+"273 721 OFFCURVE",
+"265 709 OFFCURVE",
+"247 709 CURVE SMOOTH",
+"215 709 OFFCURVE",
+"167 745 OFFCURVE",
+"102 745 CURVE SMOOTH",
+"29 745 OFFCURVE",
+"0 700 OFFCURVE",
+"0 605 CURVE",
+"96 605 LINE",
+"96 626 OFFCURVE",
+"102 639 OFFCURVE",
+"122 639 CURVE SMOOTH",
+"156 639 OFFCURVE",
+"202 603 OFFCURVE",
+"267 603 CURVE SMOOTH",
+"339 603 OFFCURVE",
+"369 646 OFFCURVE",
+"369 743 CURVE"
+);
+}
+);
+width = 369;
 },
 {
 anchors = (
@@ -186929,7 +187388,9 @@ name = top;
 position = "{161, 732}";
 }
 );
-layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
+associatedMasterId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
+layerId = "77308B06-6B96-40E8-84CC-A74EB406015E";
+name = "Apr 3 17, 20:24";
 paths = (
 {
 closed = 1;
@@ -186970,7 +187431,9 @@ name = top;
 position = "{193, 779}";
 }
 );
-layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+associatedMasterId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+layerId = "E075718B-7488-4D69-B3FF-7B0D9573D554";
+name = "Apr 3 17, 20:25";
 paths = (
 {
 closed = 1;
@@ -187010,11 +187473,11 @@ layers = (
 anchors = (
 {
 name = _top;
-position = "{131, 497}";
+position = "{119, 497}";
 },
 {
 name = top;
-position = "{131, 857}";
+position = "{119, 857}";
 }
 );
 components = (
@@ -187023,21 +187486,21 @@ name = "shadda-ar";
 },
 {
 name = "alefabove-ar";
-transform = "{1, 0, 0, 1, 121, 270}";
+transform = "{1, 0, 0, 1, 110, 240}";
 }
 );
 layerId = UUID0;
-width = 262;
+width = 238;
 },
 {
 anchors = (
 {
 name = _top;
-position = "{162, 454}";
+position = "{145, 454}";
 },
 {
 name = top;
-position = "{162, 915}";
+position = "{145, 915}";
 }
 );
 components = (
@@ -187046,21 +187509,21 @@ name = "shadda-ar";
 },
 {
 name = "alefabove-ar";
-transform = "{1, 0, 0, 1, 137, 310}";
+transform = "{1, 0, 0, 1, 120, 282}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
-width = 324;
+width = 289;
 },
 {
 anchors = (
 {
 name = _top;
-position = "{211, 415}";
+position = "{190, 415}";
 },
 {
 name = top;
-position = "{211, 1013}";
+position = "{190, 1013}";
 }
 );
 components = (
@@ -187069,11 +187532,11 @@ name = "shadda-ar";
 },
 {
 name = "alefabove-ar";
-transform = "{1, 0, 0, 1, 163, 386}";
+transform = "{1, 0, 0, 1, 142, 333}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
-width = 422;
+width = 379;
 }
 );
 },
@@ -187084,11 +187547,11 @@ layers = (
 anchors = (
 {
 name = _top;
-position = "{131, 497}";
+position = "{119, 497}";
 },
 {
 name = top;
-position = "{131, 926}";
+position = "{119, 926}";
 }
 );
 components = (
@@ -187097,21 +187560,21 @@ name = "shadda-ar";
 },
 {
 name = "damma-ar";
-transform = "{1, 0, 0, 1, 21, 253}";
+transform = "{1, 0, 0, 1, 10, 223}";
 }
 );
 layerId = UUID0;
-width = 262;
+width = 238;
 },
 {
 anchors = (
 {
 name = _top;
-position = "{162, 454}";
+position = "{145, 454}";
 },
 {
 name = top;
-position = "{162, 966}";
+position = "{145, 966}";
 }
 );
 components = (
@@ -187120,21 +187583,21 @@ name = "shadda-ar";
 },
 {
 name = "damma-ar";
-transform = "{1, 0, 0, 1, 19, 250}";
+transform = "{1, 0, 0, 1, 2, 222}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
-width = 324;
+width = 289;
 },
 {
 anchors = (
 {
 name = _top;
-position = "{211, 415}";
+position = "{190, 415}";
 },
 {
 name = top;
-position = "{211, 1091}";
+position = "{190, 1091}";
 }
 );
 components = (
@@ -187143,11 +187606,11 @@ name = "shadda-ar";
 },
 {
 name = "damma-ar";
-transform = "{1, 0, 0, 1, 22, 355}";
+transform = "{1, 0, 0, 1, 1, 332}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
-width = 422;
+width = 379;
 }
 );
 },
@@ -187158,11 +187621,11 @@ layers = (
 anchors = (
 {
 name = _top;
-position = "{131, 497}";
+position = "{119, 497}";
 },
 {
 name = top;
-position = "{131, 926}";
+position = "{119, 926}";
 }
 );
 components = (
@@ -187171,21 +187634,21 @@ name = "shadda-ar";
 },
 {
 name = "dammatan-ar";
-transform = "{1, 0, 0, 1, 21, 253}";
+transform = "{1, 0, 0, 1, 10, 223}";
 }
 );
 layerId = UUID0;
-width = 262;
+width = 238;
 },
 {
 anchors = (
 {
 name = _top;
-position = "{162, 454}";
+position = "{145, 454}";
 },
 {
 name = top;
-position = "{162, 966}";
+position = "{145, 966}";
 }
 );
 components = (
@@ -187194,21 +187657,21 @@ name = "shadda-ar";
 },
 {
 name = "dammatan-ar";
-transform = "{1, 0, 0, 1, 19, 250}";
+transform = "{1, 0, 0, 1, 2, 222}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
-width = 324;
+width = 289;
 },
 {
 anchors = (
 {
 name = _top;
-position = "{211, 415}";
+position = "{190, 415}";
 },
 {
 name = top;
-position = "{211, 1091}";
+position = "{190, 1091}";
 }
 );
 components = (
@@ -187217,11 +187680,11 @@ name = "shadda-ar";
 },
 {
 name = "dammatan-ar";
-transform = "{1, 0, 0, 1, 22, 355}";
+transform = "{1, 0, 0, 1, 1, 332}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
-width = 422;
+width = 379;
 }
 );
 },
@@ -187232,34 +187695,35 @@ layers = (
 anchors = (
 {
 name = _top;
-position = "{131, 497}";
+position = "{119, 497}";
 },
 {
 name = top;
-position = "{131, 758}";
+position = "{119, 758}";
 }
 );
 components = (
 {
 name = "shadda-ar";
+transform = "{1, 0, 0, 1, -1, 0}";
 },
 {
 name = "fatha-ar";
-transform = "{1, 0, 0, 1, 11, 155}";
+transform = "{1, 0, 0, 1, -1, 125}";
 }
 );
 layerId = UUID0;
-width = 262;
+width = 238;
 },
 {
 anchors = (
 {
 name = _top;
-position = "{162, 454}";
+position = "{145, 454}";
 },
 {
 name = top;
-position = "{162, 799}";
+position = "{145, 799}";
 }
 );
 components = (
@@ -187268,21 +187732,21 @@ name = "shadda-ar";
 },
 {
 name = "fatha-ar";
-transform = "{1, 0, 0, 1, 17, 176}";
+transform = "{1, 0, 0, 1, 0, 148}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
-width = 324;
+width = 289;
 },
 {
 anchors = (
 {
 name = _top;
-position = "{211, 415}";
+position = "{190, 415}";
 },
 {
 name = top;
-position = "{211, 890}";
+position = "{190, 890}";
 }
 );
 components = (
@@ -187291,11 +187755,11 @@ name = "shadda-ar";
 },
 {
 name = "fatha-ar";
-transform = "{1, 0, 0, 1, 21, 242}";
+transform = "{1, 0, 0, 1, 0, 219}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
-width = 422;
+width = 379;
 }
 );
 },
@@ -187306,34 +187770,35 @@ layers = (
 anchors = (
 {
 name = _top;
-position = "{131, 497}";
+position = "{120, 497}";
 },
 {
 name = top;
-position = "{131, 808}";
+position = "{120, 808}";
 }
 );
 components = (
 {
 name = "shadda-ar";
+transform = "{1, 0, 0, 1, 1, 0}";
 },
 {
 name = "fathatan-ar";
-transform = "{1, 0, 0, 1, 11, 155}";
+transform = "{1, 0, 0, 1, 1, 125}";
 }
 );
 layerId = UUID0;
-width = 262;
+width = 239;
 },
 {
 anchors = (
 {
 name = _top;
-position = "{162, 454}";
+position = "{145, 454}";
 },
 {
 name = top;
-position = "{162, 899}";
+position = "{145, 899}";
 }
 );
 components = (
@@ -187342,21 +187807,21 @@ name = "shadda-ar";
 },
 {
 name = "fathatan-ar";
-transform = "{1, 0, 0, 1, 17, 176}";
+transform = "{1, 0, 0, 1, 0, 148}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
-width = 324;
+width = 289;
 },
 {
 anchors = (
 {
 name = _top;
-position = "{211, 415}";
+position = "{190, 415}";
 },
 {
 name = top;
-position = "{211, 1066}";
+position = "{190, 1066}";
 }
 );
 components = (
@@ -187365,11 +187830,11 @@ name = "shadda-ar";
 },
 {
 name = "fathatan-ar";
-transform = "{1, 0, 0, 1, 21, 242}";
+transform = "{1, 0, 0, 1, 0, 219}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
-width = 422;
+width = 379;
 }
 );
 },
@@ -187380,17 +187845,16 @@ layers = (
 anchors = (
 {
 name = _top;
-position = "{131, 563}";
+position = "{120, 563}";
 },
 {
 name = top;
-position = "{131, 814}";
+position = "{120, 814}";
 }
 );
 components = (
 {
 name = "fatha-ar";
-transform = "{1, 0, 0, 1, 11, 0}";
 },
 {
 name = "shadda-ar";
@@ -187398,23 +187862,22 @@ transform = "{1, 0, 0, 1, 0, 136}";
 }
 );
 layerId = UUID0;
-width = 262;
+width = 239;
 },
 {
 anchors = (
 {
 name = _top;
-position = "{162, 553}";
+position = "{145, 553}";
 },
 {
 name = top;
-position = "{162, 898}";
+position = "{145, 898}";
 }
 );
 components = (
 {
 name = "fatha-ar";
-transform = "{1, 0, 0, 1, 17, 0}";
 },
 {
 name = "shadda-ar";
@@ -187422,23 +187885,22 @@ transform = "{1, 0, 0, 1, 0, 209}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
-width = 324;
+width = 289;
 },
 {
 anchors = (
 {
 name = _top;
-position = "{211, 532}";
+position = "{190, 532}";
 },
 {
 name = top;
-position = "{211, 1027}";
+position = "{190, 1027}";
 }
 );
 components = (
 {
 name = "fatha-ar";
-transform = "{1, 0, 0, 1, 21, 0}";
 },
 {
 name = "shadda-ar";
@@ -187446,7 +187908,7 @@ transform = "{1, 0, 0, 1, 0, 303}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
-width = 422;
+width = 379;
 }
 );
 },
@@ -187457,34 +187919,35 @@ layers = (
 anchors = (
 {
 name = _top;
-position = "{131, 380}";
+position = "{120, 380}";
 },
 {
 name = top;
-position = "{131, 678}";
+position = "{120, 678}";
 }
 );
 components = (
 {
 name = "shadda-ar";
+transform = "{1, 0, 0, 1, 1, 0}";
 },
 {
 name = "kasratan-ar";
-transform = "{1, 0, 0, 1, 12, 501}";
+transform = "{1, 0, 0, 1, 0, 501}";
 }
 );
 layerId = UUID0;
-width = 262;
+width = 239;
 },
 {
 anchors = (
 {
 name = _top;
-position = "{162, 255}";
+position = "{145, 255}";
 },
 {
 name = top;
-position = "{162, 689}";
+position = "{145, 689}";
 }
 );
 components = (
@@ -187493,21 +187956,21 @@ name = "shadda-ar";
 },
 {
 name = "kasratan-ar";
-transform = "{1, 0, 0, 1, 18, 386}";
+transform = "{1, 0, 0, 1, 0, 386}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
-width = 324;
+width = 289;
 },
 {
 anchors = (
 {
 name = _top;
-position = "{211, 85}";
+position = "{190, 85}";
 },
 {
 name = top;
-position = "{211, 724}";
+position = "{190, 724}";
 }
 );
 components = (
@@ -187516,11 +187979,11 @@ name = "shadda-ar";
 },
 {
 name = "kasratan-ar";
-transform = "{1, 0, 0, 1, 22, 237}";
+transform = "{1, 0, 0, 1, 0, 237}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
-width = 422;
+width = 379;
 }
 );
 },
