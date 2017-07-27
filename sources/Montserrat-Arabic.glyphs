@@ -1,5 +1,5 @@
 {
-.appVersion = "1032";
+.appVersion = "1045";
 classes = (
 {
 automatic = 1;
@@ -71,7 +71,7 @@ name = vendorID;
 value = "1KTF";
 }
 );
-date = "2017-06-13 23:28:39 +0000";
+date = "2017-07-27 21:23:26 +0000";
 designer = "Mohamed Gaber";
 designerURL = "http://gaber.design/";
 familyName = "Montserrat-Arabic";
@@ -368,7 +368,7 @@ descender = -668;
 guideLines = (
 {
 angle = 90;
-position = "{327, 667}";
+position = "{327, 547}";
 },
 {
 angle = 90;
@@ -164537,28 +164537,91 @@ layers = (
 {
 components = (
 {
-name = percent;
+alignment = -1;
+name = fraction;
+transform = "{1, 0, 0, 1, 432, 0}";
+},
+{
+name = "zero-ar";
+transform = "{1, 0, 0, 1, 580, -150}";
+},
+{
+name = "zero-ar";
+transform = "{1, 0, 0, 1, 108, 486}";
 }
 );
 layerId = UUID0;
-width = 924;
+width = 848;
 },
 {
 components = (
 {
-name = percent;
+alignment = -1;
+name = fraction;
+transform = "{1, 0, 0, 1, 435, 0}";
+},
+{
+name = "zero-ar";
+transform = "{1, 0, 0, 1, 535, -131}";
+},
+{
+name = "zero-ar";
+transform = "{1, 0, 0, 1, 63, 428}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
-width = 964;
+width = 919;
 },
 {
+components = (
+{
+alignment = -1;
+name = fraction;
+transform = "{1, 0, 0, 1, 447, 0}";
+},
+{
+name = "zero-ar";
+transform = "{1, 0, 0, 1, 542, -117}";
+},
+{
+name = "zero-ar";
+transform = "{1, 0, 0, 1, 64, 347}";
+}
+);
+layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+width = 1038;
+},
+{
+associatedMasterId = UUID0;
 components = (
 {
 name = percent;
 }
 );
-layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+layerId = "5A4E12B5-587B-45D7-91FD-6334661CF5B9";
+name = "Jul 27 17, 23:23";
+width = 924;
+},
+{
+associatedMasterId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
+components = (
+{
+name = percent;
+}
+);
+layerId = "F7CF32D2-58DA-4735-B301-FE73CCB4506A";
+name = "Jul 27 17, 23:23";
+width = 964;
+},
+{
+associatedMasterId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+components = (
+{
+name = percent;
+}
+);
+layerId = "1174EA76-2246-4AA8-9C2F-56773588A938";
+name = "Jul 27 17, 23:23";
 width = 1016;
 }
 );
